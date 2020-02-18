@@ -1,8 +1,6 @@
 ## Override & Overload
 
-
 **Override - 重写**  
-<br>
 * 指子类重写父类的方法，是父类和子类间一种多态的体现<br>
 > 参数必须一致<br>
 返回类型必须为父类方法返回类型或其派生类<br>
@@ -16,5 +14,9 @@
 > 参数列表必须不同<br>
 可以改变访问修饰符<br>
 可以声明新的或更广的异常
+![图片加载失败](http://maxwell-l.github.io/WriteSomething/image/over1.png)
+<br>
+<br>
+[返回首页](https://maxwell-l.github.io/WriteSomething)
 
 
