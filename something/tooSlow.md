@@ -5,5 +5,8 @@
 
 * Windows系统下打开C:/Windows/System32/drivers/etc/hosts文件，在文件末尾添加IP地址和域名即可。  
 ![图片加载失败](https://maxwell-l.github.io/WriteSomething/image/tooSlow2.png)  
+<br>
+<br>
+[返回首页](https://maxwell-l.github.io/WriteSomething)
 
 
