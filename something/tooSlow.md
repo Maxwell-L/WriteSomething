@@ -1,4 +1,5 @@
-## GitHub访问/下载速度过慢
+## **GitHub访问/下载速度过慢**
+----------------------------------
 
 * 利用[https://fastly.net.ipaddress.com/github.global.ssl.fastly.net#ipinfo](https://fastly.net.ipaddress.com/github.global.ssl.fastly.net#ipinfo)获得 github.global.ssl.fastly.net 的IP地址。如下图所示:  
 ![图片加载失败](https://maxwell-l.github.io/WriteSomething/image/tooSlow1.png)  

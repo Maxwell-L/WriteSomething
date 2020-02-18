@@ -1,4 +1,5 @@
-## hashcode & equals
+## **hashcode & equals**
+-----------------------------
 
 * HashMap、HashSet中判断两个Key值是否相等时先判断两者的hashcode是否一样，若不同则判定两者不同；若相同，则再通过equals方法判断两者是否相同，若仍相同则判定两个Key值是同一个，否则不是同一个。故一般而言，hashcode和equals方法需要同时重写，否则在容器中应用时可能出错。
 
