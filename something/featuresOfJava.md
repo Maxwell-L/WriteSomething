@@ -41,7 +41,7 @@
     + 接口  
     + 抽象类  
 
-``` java   
+``` java
 class Animal {
     public void eat() {
         System.out.println("Animal Eat");
