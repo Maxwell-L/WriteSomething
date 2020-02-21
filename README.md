@@ -5,5 +5,7 @@
 * [hashcode & equals](https://maxwell-l.github.io/WriteSomething/something/hashcode%20equals)
 * [Override & Overload](https://maxwell-l.github.io/WriteSomething/something/override%20overload)
 * [Java中的封装/继承/多态](https://maxwell-l.github.io/WriteSomething/something/featuresOfJava)
+* [类加载器 & 双亲委托模型](https://maxwell-l.github.io/WriteSomething/something/classloader)
+
 
 
