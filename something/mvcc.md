@@ -40,7 +40,7 @@
         * 若数据修改的版本处于最早和最晚之间：则该数据版本对应的事务若已提交，则可读，否则不可读。
     + 事务仅在第一次使用select语句进行读操作时创建一致性视图，假设有A事务早于B事务开始，但B事务修改数据并提交后A事务才第一次使用select语句读取数据，则会读取到B事务修改的数据。  
         ![图片加载失败](https://maxwell-l.github.io/WriteSomething/image/mvcc2.png)
-    + MVCC仅针对读操作(SELECT)，写操作不创建一致性视图(UPDATE,INSERT,DELETE)。
+* MVCC仅针对读操作(SELECT)，写操作不创建一致性视图(UPDATE, INSERT, DELETE)。
 
 
 
