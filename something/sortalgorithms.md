@@ -1,6 +1,7 @@
 ## **排序算法**
 ---------------------
-* [SortAlgorithms类 - 文档说明](https://maxwell-l.github.io/WriteSomething/something/doc/index)
+* [SortAlgorithms类 - 文档说明](https://maxwell-l.github.io/WriteSomething/something/doc/index)  
+  
 ### **冒泡排序**
 ``` java
 public static void bubbleSort(int[] array) {
@@ -199,4 +200,7 @@ public static void heapSort(int[] array) {
 }
 ```
 
-[类文件下载](SortAlgorithms.java)
+<a href="SortAlgorithms.java" target="_blank">类文件下载</a>
+<br>
+
+[返回首页](https://maxwell-l.github.io/WriteSomething)
