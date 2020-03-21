@@ -1,6 +1,5 @@
 ## **排序算法**
 ---------------------
-* [SortAlgorithms类 - 文档说明](https://maxwell-l.github.io/WriteSomething/something/doc/index)  
   
 ### **冒泡排序**
 ``` java
