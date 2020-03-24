@@ -3,6 +3,7 @@
 
 * [排序算法的实现](https://maxwell-l.github.io/WriteSomething/something/sortalgorithms)
 * [hashcode & equals](https://maxwell-l.github.io/WriteSomething/something/hashcode%20equals)
+* [HashMap扩容机制（JDK1.8）](https://maxwell-l.github.io/WriteSomething/something/hashmapresize)
 * [Override & Overload](https://maxwell-l.github.io/WriteSomething/something/override%20overload)
 * [Java中的封装/继承/多态](https://maxwell-l.github.io/WriteSomething/something/featuresOfJava)
 * [abstract class & interface](https://maxwell-l.github.io/WriteSomething/something/abstractclass%20interface)
