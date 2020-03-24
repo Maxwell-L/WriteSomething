@@ -10,6 +10,8 @@
 * **红黑树的性能**
   + 插入的时间复杂度：O(*log* n)
   + 查找的时间复杂度：O(*log* n)
+
+
 ### **源码解析**
 * 摘自 *HashMap* 中静态内部类 *TreeNode* 的 *balanceInsertion(TreeNode<K, V> root, TreeNode<K, V> x)* 方法。其中，root 为红黑树的根节点，x 为刚按照二叉搜索树规则插入的结点。
 ``` java
@@ -137,5 +139,5 @@ static <K,V> TreeNode<K,V> rotateRight(TreeNode<K,V> root, TreeNode<K,V> p) {
 ```
 
 ### **示意图**
-![图片加载失败](https://maxwell-l.github.io/WriteSomething/image/br1.png)
-![图片加载失败](https://maxwell-l.github.io/WriteSomething/image/br2.png)
+![图片加载失败](https://maxwell-l.github.io/WriteSomething/image/rb1.png)
+![图片加载失败](https://maxwell-l.github.io/WriteSomething/image/rb2.png)
