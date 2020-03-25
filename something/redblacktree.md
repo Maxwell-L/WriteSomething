@@ -141,3 +141,9 @@ static <K,V> TreeNode<K,V> rotateRight(TreeNode<K,V> root, TreeNode<K,V> p) {
 ### **示意图**
 ![图片加载失败](https://maxwell-l.github.io/WriteSomething/image/rb1.png)
 ![图片加载失败](https://maxwell-l.github.io/WriteSomething/image/rb2.png)
+
+  
+
+
+[返回首页](https://maxwell-l.github.io/WriteSomething)
+
