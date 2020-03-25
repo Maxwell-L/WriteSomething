@@ -7,11 +7,13 @@
 /* include/linux/sched.h */
 
     /* -1 unrunnable, 0 runnable, >0 stopped: */
-	volatile long			state;
+	  volatile long			state;
 
     int				        exit_state;
 ```
+
 * **进程状态的定义**
+
 ``` c
 /* include/linux/sched.h */
 
@@ -42,6 +44,7 @@
 #define TASK_TRACED			(TASK_WAKEKILL | __TASK_TRACED)
 #define TASK_IDLE			(TASK_UNINTERRUPTIBLE | TASK_NOLOAD)
 ```
+
 * **主要状态**
   + **就绪状态**：`state = TASK_RUNNING` Linux中没有区分就绪状态和运行状态，处于运行队列中等待CPU调度的就是就绪状态。
   + **运行状态**：`state = TASK_RUNNING` 正在CPU上运行的任务处于运行状态。
