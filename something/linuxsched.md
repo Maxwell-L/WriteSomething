@@ -36,6 +36,7 @@
   + **完全公平调度算法** CFS引入虚拟运行时间`vruntime`的概念：`vruntime = delta_exec * NICE_0_LOAD / WEIGHT`，其中`delta_exec`为实际运行时间，`NICE_0_LOAD`为1024，`weight`是进程的权重。  
   CFS使用红黑树把进程按照虚拟运行时间从小到大排序，每次调度时选择虚拟运行时间最小的进程。由上式可知，实际运行时间一定时，权重越大，虚拟运行时间越小。
 * **源码中的`NICE n`的权重**
+
     ``` c
     /* kernel/sched/core.c */
     /*
