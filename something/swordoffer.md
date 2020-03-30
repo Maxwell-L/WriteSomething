@@ -12,5 +12,7 @@
 |树|[数据流中的中位数](https://maxwell-l.github.io/WriteSomething/SwordOffer/getmedian)|
 |栈与队列|[滑动窗口的最大值](https://maxwell-l.github.io/WriteSomething/SwordOffer/slidewindow)|
 |回溯法|[矩阵中的路径](https://maxwell-l.github.io/WriteSomething/SwordOffer/haspath)|
+|回溯法|[机器人的运动范围](https://maxwell-l.github.io/WriteSomething/SwordOffer/movingcount)|
+|动态规划与贪婪|[剪绳子](https://maxwell-l.github.io/WriteSomething/SwordOffer/cutrope)|
 
 [返回首页](https://maxwell-l.github.io/WriteSomething)
