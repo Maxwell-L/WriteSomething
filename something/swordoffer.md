@@ -9,6 +9,8 @@
 |树|[重建二叉树](https://maxwell-l.github.io/WriteSomething/SwordOffer/rebuildbinarytree)|
 |时间空间效率的平衡|[数组中的逆序对](https://maxwell-l.github.io/WriteSomething/SwordOffer/inversepairs)|
 |字符串|[字符流中第一个不重复的字符](https://maxwell-l.github.io/WriteSomething/SwordOffer/firstsinglechar)|
-
+|树|[数据流中的中位数](https://maxwell-l.github.io/WriteSomething/SwordOffer/getmedian)|
+|栈与队列|[滑动窗口的最大值](https://maxwell-l.github.io/WriteSomething/SwordOffer/slidewindow)|
+|回溯法|[矩阵中的路径](https://maxwell-l.github.io/WriteSomething/SwordOffer/haspath)|
 
 [返回首页](https://maxwell-l.github.io/WriteSomething)
