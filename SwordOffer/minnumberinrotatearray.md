@@ -11,7 +11,7 @@
 
     ``` java
     import java.util.ArrayList;
-    public class MinNumberInRotateArraySolution {
+    public class Solution {
         public int minNumberInRotateArray(int [] array) {
             if(array.length <= 0) {
                 return 0;
