@@ -8,6 +8,8 @@
 |链表|[从尾到头打印链表](https://maxwell-l.github.io/WriteSomething/SwordOffer/printlist)|
 |树|[重建二叉树](https://maxwell-l.github.io/WriteSomething/SwordOffer/rebuildbinarytree)|
 |时间空间效率的平衡|[数组中的逆序对](https://maxwell-l.github.io/WriteSomething/SwordOffer/inversepairs)|
+|抽象建模能力|[扑克牌顺子](https://maxwell-l.github.io/WriteSomething/SwordOffer/poker)|
+|抽象建模能力|[孩子们的游戏(圆圈中最后剩下的数)](https://maxwell-l.github.io/WriteSomething/SwordOffer/lastremain)|
 |字符串|[字符流中第一个不重复的字符](https://maxwell-l.github.io/WriteSomething/SwordOffer/firstsinglechar)|
 |树|[数据流中的中位数](https://maxwell-l.github.io/WriteSomething/SwordOffer/getmedian)|
 |栈与队列|[滑动窗口的最大值](https://maxwell-l.github.io/WriteSomething/SwordOffer/slidewindow)|
