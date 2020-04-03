@@ -35,9 +35,10 @@
 |时间效率|[连续子数组的最大和](https://github.com/Maxwell-L/SwordOffer/blob/master/Code/FindGreatestSumOfSubArraySolution.java)|
 |时间效率|[整数中1出现的次数（从1到n整数中1出现的次数）](https://github.com/Maxwell-L/SwordOffer/blob/master/Code/NumberOf1Between1AndNSolution.java)|
 |时间效率|[把数组排成最小的数](https://maxwell-l.github.io/WriteSomething/SwordOffer/printmin)|
-|时间空间效率的平衡|[第一个只出现一次的字符位置](https://github.com/Maxwell-L/SwordOffer/blob/master/Code/FirstNotRepeatingCharSolution.java)|
+|时间空间效率的平衡|[丑数](https://maxwell-l.github.io/WriteSomething/SwordOffer/uglynumber)|
+|时间空间效率的平衡|[第一个只出现一次的字符位置](https://maxwell-l.github.io/WriteSomething/SwordOffer/firstnotrepeatingchar)|
 |时间空间效率的平衡|[数组中的逆序对](https://maxwell-l.github.io/WriteSomething/SwordOffer/inversepairs)|
-|时间空间效率的平衡|[两个链表的第一个公共结点](https://github.com/Maxwell-L/SwordOffer/blob/master/Code/FindFirstCommonNodeSolution.java)|
+|时间空间效率的平衡|[两个链表的第一个公共结点](https://maxwell-l.github.io/WriteSomething/SwordOffer/findfirstcommonnode)|
 |知识迁移能力|[数字在排序数组中出现的次数](https://github.com/Maxwell-L/SwordOffer/blob/master/Code/GetNumberOfKSolution.java)|
 |知识迁移能力|[二叉树的深度](https://github.com/Maxwell-L/SwordOffer/blob/master/Code/TreeDepthSolution.java)|
 |知识迁移能力|[平衡二叉树](https://github.com/Maxwell-L/SwordOffer/blob/master/Code/IsBalancedSolution.java)|
