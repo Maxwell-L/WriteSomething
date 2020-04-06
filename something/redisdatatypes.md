@@ -2,7 +2,7 @@
 -----------
 `Redis`中以`key-value`的结构存储数据，其中`key`都是以`string`类型存储，一般讨论数据类型都是指的`value`的类型。[官方文档](https://redis.io/topics/data-types)
 ### string
-* 数值增减操作
+* 数值增减操作  
 
     |操 作|作 用|
     |:-|:-|
@@ -11,6 +11,7 @@
     |**incrbyfloat** &nbsp;*key increment*|*key* 增加 *increment* (`float`)|
     |**decr** &nbsp;*key*|*key* 减少 1|
     |**decrby** &nbsp;*key decrement*|*key* 减少 *decrement*|
+
     + 应用场景  
     数据库分库分表后可能出现的自增主键重复，可以用`Redis`来生成主键，由于`Redis`是单线程执行的，故可以保证高并发下主键生成的唯一性。
 * 单指令操作与多指令操作的选择
@@ -72,6 +73,7 @@
     |**smembers** &nbsp;*key*|获取 *key* 值对应`set`中所有的 *member*|
     |**srem** &nbsp;*key member [member ...]*|从 *key* 值对应的`set`中删除一个或多个 *member*|
     |**scard** &nbsp;*key*|获取 *key* 值对应的`set`中 *member* 的数量|
+
     + 应用场景  
     统计网站访问量，记录不同 *cookie* 数量、不同 *ip* 地址。  
     实现黑白名单，过滤黑名单中的用户、设备、*ip*。
@@ -82,6 +84,7 @@
     |:-|:-|
     |**srandmember** &nbsp;*key [count]*|从 *key* 值对应的`set`中随机获取 *count* 个 *member*|
     |**spop** &nbsp;*key [count]*|从 *key* 值对应的`set`中随机获取 *count* 个 *member* 并移除|
+
     + 应用场景  
     从热点数据（热门歌单、热点新闻、热卖商品 ...）中随机推荐一部分到用户首页，应用于随机推荐类信息检索。
 
@@ -95,7 +98,9 @@
     |**sinterstore** &nbsp;*destination key [key ...]*|获取多个 *key* 对应的`set`的交集并存储到 *destination* 中|
     |**sunionstore** &nbsp;*destination key [key ...]*|获取多个 *key* 对应的`set`的并集并存储到 *destination* 中|
     |**sdiffstore** &nbsp;*destination key [key ...]*|获取多个 *key* 对应的`set`的差集并存储到 *destination* 中|
+
     ![图片加载失败](https://maxwell-l.github.io/WriteSomething/image/redis1.png)
+
     + 应用场景  
     获取共同好友、共同关注、共同群聊...还可以进行更深层次的关联搜索...
 
@@ -118,6 +123,7 @@
     |**zrank** &nbsp;*key member*|获取 *key* 值对应`sorted_set`中 *member* 的排序|
     |**zscore** &nbsp;*key member*|获取 *key* 值对应`sorted_set`中 *member* 的 *score*|
     |**zincrby** &nbsp;*key increment member*|对 *key* 值对应`sorted_set`中 *member* 的 *score* 增加 *increment*|
+
     + 应用场景  
     对于基于时间线的任务，可以采用`sorted_set`存储任务，并用 *score* 记录截止日期（时间戳），按照时间戳先后顺序执行任务。  
     对于带有权重的任务，可以用 *score* 记录权重，还可以通过对 *score* 做分段实现多个权重条件。  
