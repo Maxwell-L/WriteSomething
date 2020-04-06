@@ -14,4 +14,5 @@
 * [POJ - Code](https://maxwell-l.github.io/WriteSomething/something/pojcontent)
 * [Linux中的进程](https://maxwell-l.github.io/WriteSomething/something/linuxtask)
 * [Linux中的调度策略](https://maxwell-l.github.io/WriteSomething/something/linuxsched)
+* [Redis 五种常用数据类型](https://maxwell-l.github.io/WriteSomething/something/redisdatatypes)
 
