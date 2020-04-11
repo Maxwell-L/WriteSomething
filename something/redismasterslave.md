@@ -25,12 +25,14 @@
 #### **2、数据同步阶段**
 * 全量复制
 * 增量复制
+
 ##### **全量复制**
 1. **slave** 连接 **master**，发送指令 `psync2`  
 2. **master** 执行 *bgsave*
 3. **master** 创建复制缓冲区（存储 *bgsave* 阶段新增的）
 4. **master** 将生成的 RDB 文件通过 socket 发送给 slave
 5. **slave** 接收 RDB，清空数据，执行 RDB 文件恢复数据
+
 ##### **增量复制**
 6. **slave** 发送命令告知 **master** RDB 恢复完成
 7. **master** 发送复制缓冲区信息（AOF）
