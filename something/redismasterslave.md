@@ -22,3 +22,7 @@
 ![图片加载失败](https://maxwell-l.github.io/WriteSomething/image/redis2.png)
 
 
+#### **数据同步阶段**
+* 全量复制
+* 增量复制
+### 
