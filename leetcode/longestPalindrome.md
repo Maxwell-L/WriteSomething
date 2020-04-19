@@ -15,7 +15,7 @@
 输入: "cbbd"
 输出: "bb"
 
-链接：https://leetcode-cn.com/problems/longest-palindromic-substring
+链接：[https://leetcode-cn.com/problems/longest-palindromic-substring](https://leetcode-cn.com/problems/longest-palindromic-substring)
 
 
 
