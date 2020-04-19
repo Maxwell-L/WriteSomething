@@ -10,6 +10,7 @@
 |5|[最长回文子串](https://maxwell-l.github.io/WriteSomething/leetcode/longestPalindrome)|<font color="#ED7336">中等</font>|`字符串` `动态规划`|
 |6|[Z 字形变换](https://maxwell-l.github.io/WriteSomething/leetcode/convert)|<font color="#ED7336">中等</font>|`字符串`|
 |7|[整数反转](https://maxwell-l.github.io/WriteSomething/leetcode/reverse)|<font color="#009975">简单</font>|`数学`|
+|8|[字符串转换整数(atoi)](https://maxwell-l.github.io/WriteSomething/leetcode/myAtoi)|<font color="#ED7336">中等</font>|`数学` `字符串`|
 
 
 
