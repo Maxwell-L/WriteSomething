@@ -20,7 +20,9 @@ nums2 = [2]
 nums1 = [1, 2]
 nums2 = [3, 4]
 
-则中位数是 (2 + 3) / 2 = 2.5
+则中位数是 (2 + 3) / 2 = 2.5  
+
+链接：https://leetcode-cn.com/problems/median-of-two-sorted-arrays
 
 
 ### **题解**
