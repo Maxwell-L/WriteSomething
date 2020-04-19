@@ -11,6 +11,7 @@
 |6|[Z 字形变换](https://maxwell-l.github.io/WriteSomething/leetcode/convert)|<font color="#ED7336">中等</font>|`字符串`|
 |7|[整数反转](https://maxwell-l.github.io/WriteSomething/leetcode/reverse)|<font color="#009975">简单</font>|`数学`|
 |8|[字符串转换整数(atoi)](https://maxwell-l.github.io/WriteSomething/leetcode/myAtoi)|<font color="#ED7336">中等</font>|`数学` `字符串`|
+|9|[回文数](https://maxwell-l.github.io/WriteSomething/leetcode/isPalindrome)|<font color="#009975">简单</font>|`数学`|
 
 
 
