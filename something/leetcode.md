@@ -23,6 +23,7 @@
 |18|[四数之和](https://maxwell-l.github.io/WriteSomething/leetcode/fourSum)|<font color="#ED7336">中等</font>|`数组` `哈希表` `双指针`|
 |19|[删除链表的倒数第N个节点](https://maxwell-l.github.io/WriteSomething/leetcode/removeNthFromEnd)|<font color="#ED7336">中等</font>|`链表` `双指针`|
 |20|[有效的括号](https://maxwell-l.github.io/WriteSomething/leetcode/isValid)|<font color="#009975">简单</font>|`栈` `字符串`|
+|21|[合并两个有序链表](https://maxwell-l.github.io/WriteSomething/leetcode/mergeTwoLists)|<font color="#009975">简单</font>|`链表`|
 
 
 
