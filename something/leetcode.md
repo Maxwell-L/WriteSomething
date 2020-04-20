@@ -31,6 +31,7 @@
 |26|[删除排序数组中的重复项](https://maxwell-l.github.io/WriteSomething/leetcode/removeDuplicates)|<font color="#009975">简单</font>|`数组` `双指针`|
 |27|[移除元素](https://maxwell-l.github.io/WriteSomething/leetcode/removeElement)|<font color="#009975">简单</font>|`数组` `双指针`|
 |28|[实现 strStr()](https://maxwell-l.github.io/WriteSomething/leetcode/strStr)|<font color="#009975">简单</font>|`双指针` `字符串`|
+|29|[两数相除](https://maxwell-l.github.io/WriteSomething/leetcode/divide)|<font color="#ED7336">中等</font>|`数学` `二分查找`|
 
 
 
