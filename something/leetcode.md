@@ -27,6 +27,7 @@
 |22|[括号生成](https://maxwell-l.github.io/WriteSomething/leetcode/generateParenthesis)|<font color="#ED7336">中等</font>|`字符串` `回溯算法`|
 |23|[合并K个排序链表](https://maxwell-l.github.io/WriteSomething/leetcode/mergeKLists)|<font color="#EC4C47">困难</font>|`堆` `链表` `分治算法`|
 |24|[两两交换链表中的节点](https://maxwell-l.github.io/WriteSomething/leetcode/swapPairs)|<font color="#ED7336">中等</font>|`链表`|
+|25|[K 个一组翻转链表](https://maxwell-l.github.io/WriteSomething/leetcode/reverseKGroup)|<font color="#EC4C47">困难</font>|`链表`|
 
 
 
