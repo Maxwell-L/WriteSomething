@@ -1,0 +1,91 @@
+## **18 - 四数之和**
+--------------------
+
+### **题目描述**
+
+给定一个包含 n 个整数的数组 nums 和一个目标值 target，判断 nums 中是否存在四个元素 a，b，c 和 d ，使得 a + b + c + d 的值与 target 相等？找出所有满足条件且不重复的四元组。
+
+注意：
+
+答案中不可以包含重复的四元组。
+
+示例：
+
+给定数组 nums = [1, 0, -1, 0, -2, 2]，和 target = 0。
+
+满足要求的四元组集合为：  
+[  
+&nbsp;&nbsp;[-1,  0, 0, 1],  
+&nbsp;&nbsp;[-2, -1, 1, 2],  
+&nbsp;&nbsp;[-2,  0, 0, 2]  
+]
+
+
+链接：[https://leetcode-cn.com/problems/4sum](https://leetcode-cn.com/problems/4sum)
+
+
+### **题解**
+``` java
+class Solution {
+    public List<List<Integer>> fourSum(int[] nums, int target) {
+        List<List<Integer>> res = new ArrayList<>();
+        Arrays.sort(nums);
+        if(nums != null && nums.length >= 4) {
+            for(int first = 0; first < nums.length - 3; first++) {
+                if(first > 0 && nums[first] == nums[first - 1]) {
+                    continue;
+                }
+                int min = nums[first] + nums[first + 1] + nums[first + 2] + nums[first + 3];
+                if(min > target) {
+                    break;
+                }
+                int last = nums.length - 1;    
+                int max = nums[first] + nums[last - 2] + nums[last - 1] + nums[last];
+                if(max < target) {
+                    continue;
+                }    
+                for(int second = first + 1; second < nums.length - 2; second++) {
+                    last = nums.length - 1;
+                    if(second > first + 1 && nums[second] == nums[second - 1]) {
+                        continue;
+                    }
+                    int third = second + 1;
+                    int min2 = nums[first] + nums[second] + nums[third] + nums[third + 1];
+                    if(min2 > target) {
+                        break;
+                    }    
+                    int max2 = nums[first] + nums[second] + nums[last - 1] + nums[last];
+                    if(max2 < target) {
+                        continue;
+                    } 
+                    while(third < last) {
+                        int sum = nums[first] + nums[second] + nums[third] + nums[last];
+                        if(sum == target) {
+                            res.add(new ArrayList<>(Arrays.asList(nums[first], nums[second], nums[third], nums[last])));
+                            do {
+                                ++third;
+                            } while(third < last && nums[third] == nums[third - 1]);
+                            do {
+                                --last;
+                            } while(third < last && nums[last] == nums[last + 1]);
+                        } else if(sum < target) {
+                            do {
+                                ++third;
+                            } while(third < last && nums[third] == nums[third - 1]);
+                        } else {
+                            do {
+                                --last;
+                            } while(third < last && nums[last] == nums[last + 1]);
+                        }
+                    }   
+                }
+            }
+        }
+        return res;
+    }
+}
+```
+
+
+
+[返回目录](https://maxwell-l.github.io/WriteSomething/something/leetcode)
