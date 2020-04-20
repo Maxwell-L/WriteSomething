@@ -29,6 +29,7 @@
 |24|[两两交换链表中的节点](https://maxwell-l.github.io/WriteSomething/leetcode/swapPairs)|<font color="#ED7336">中等</font>|`链表`|
 |25|[K 个一组翻转链表](https://maxwell-l.github.io/WriteSomething/leetcode/reverseKGroup)|<font color="#EC4C47">困难</font>|`链表`|
 |26|[删除排序数组中的重复项](https://maxwell-l.github.io/WriteSomething/leetcode/removeDuplicates)|<font color="#009975">简单</font>|`数组` `双指针`|
+|27|[移除元素](https://maxwell-l.github.io/WriteSomething/leetcode/removeElement)|<font color="#009975">简单</font>|`数组` `双指针`|
 
 
 
