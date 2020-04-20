@@ -33,6 +33,8 @@
 |28|[实现 strStr()](https://maxwell-l.github.io/WriteSomething/leetcode/strStr)|<font color="#009975">简单</font>|`双指针` `字符串`|
 |29|[两数相除](https://maxwell-l.github.io/WriteSomething/leetcode/divide)|<font color="#ED7336">中等</font>|`数学` `二分查找`|
 |30|[串联所有单词的子串](https://maxwell-l.github.io/WriteSomething/leetcode/findSubstring)|<font color="#EC4C47">困难</font>|`哈希表` `双指针` `字符串`|
+|31|[下一个排列](https://maxwell-l.github.io/WriteSomething/leetcode/nextPermutation)|<font color="#ED7336">中等</font>|`数组`|
+|32|[最长有效括号](https://maxwell-l.github.io/WriteSomething/leetcode/longestValidParentheses)|<font color="#EC4C47">困难</font>|`字符串` `动态规划`|
 
 
 
