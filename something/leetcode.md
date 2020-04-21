@@ -35,6 +35,8 @@
 |30|[串联所有单词的子串](https://maxwell-l.github.io/WriteSomething/leetcode/findSubstring)|<font color="#EC4C47">困难</font>|`哈希表` `双指针` `字符串`|
 |31|[下一个排列](https://maxwell-l.github.io/WriteSomething/leetcode/nextPermutation)|<font color="#ED7336">中等</font>|`数组`|
 |32|[最长有效括号](https://maxwell-l.github.io/WriteSomething/leetcode/longestValidParentheses)|<font color="#EC4C47">困难</font>|`字符串` `动态规划`|
+|33|[搜索旋转排序数组](https://maxwell-l.github.io/WriteSomething/leetcode/search)|<font color="#ED7336">中等</font>|`数组` `二分查找`|
+|41|[缺失的第一个正数](https://maxwell-l.github.io/WriteSomething/leetcode/firstMissingPositive)|<font color="#EC4C47">困难</font>|`数组`|
 
 
 
