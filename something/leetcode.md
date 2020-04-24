@@ -38,6 +38,7 @@
 |33|[搜索旋转排序数组](https://maxwell-l.github.io/WriteSomething/leetcode/search)|<font color="#ED7336">中等</font>|`数组` `二分查找`|
 |34|[在排序数组中查找元素的第一个和最后一个位置](https://maxwell-l.github.io/WriteSomething/leetcode/searchRange)|<font color="#ED7336">中等</font>|`数组` `二分查找`|
 |35|[搜索插入位置](https://maxwell-l.github.io/WriteSomething/leetcode/searchInsert)|<font color="#009975">简单</font>|`数组` `二分查找`|
+|36|[有效的数独](https://maxwell-l.github.io/WriteSomething/leetcode/isValidSudoku)|<font color="#ED7336">中等</font>|`哈希表`|
 |41|[缺失的第一个正数](https://maxwell-l.github.io/WriteSomething/leetcode/firstMissingPositive)|<font color="#EC4C47">困难</font>|`数组`|
 
 
