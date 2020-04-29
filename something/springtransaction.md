@@ -174,7 +174,8 @@ public interface TransactionDefinition {
     ...
 }
 ```
-总结为：
+总结为：  
+
 隔离级别|值|描述
 :-:|:-:|:-:
 `ISOLATION_DEFAULT`|-1|使用底层数据库的隔离级别
