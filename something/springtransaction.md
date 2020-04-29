@@ -99,7 +99,8 @@ public interface TransactionDefinition {
     ...
 }
 ```
-总结为：
+总结为：  
+
 传播行为|值|描述
 :-:|:-:|:-:
 `PROPAGATION_REQUIRED`|0|若当前存在事务则沿用，否则新建事务
@@ -109,10 +110,12 @@ public interface TransactionDefinition {
 `PROPAGATION_NOT_SUPPORTED`|4|以非事务的方式执行，若当前存在事务则将其挂起
 `PROPAGATION_NEVER`|5|不支持事务，若当前存在事务则报错
 `PROPAGATION_NESTED`|6|若当前存在事务则沿用，否则新建事务
+
 * `PROPAGATION_REQUIRED` 与 `PROPAGATION_NESTED` 不同在于，假设存在事务A中嵌套了事务B，当事务B执行出错时，`REQUIRED` 会将整个事务（包含A、B）进行回滚，而 `NESTED` 只会回滚事务B。
 
 ### **Spring 事务隔离级别**
-* **Spring**源码 `TransactionDefinition.java` 中描述了**Spring**的事务隔离级别
+* **Spring**源码 `TransactionDefinition.java` 中描述了**Spring**的事务隔离级别  
+
 ``` java
 public interface TransactionDefinition {
     ...
