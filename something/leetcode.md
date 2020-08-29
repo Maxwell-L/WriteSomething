@@ -40,6 +40,7 @@
 |35|[搜索插入位置](https://maxwell-l.github.io/WriteSomething/leetcode/searchInsert)|<font color="#009975">简单</font>|`数组` `二分查找`|
 |36|[有效的数独](https://maxwell-l.github.io/WriteSomething/leetcode/isValidSudoku)|<font color="#ED7336">中等</font>|`哈希表`|
 |38|[外观数列](https://maxwell-l.github.io/WriteSomething/leetcode/countAndSay)|<font color="#009975">简单</font>|`字符串`|
+|39|[组合总和](https://maxwell-l.github.io/WriteSomething/leetcode/combinationSum)|<font color="#ED7336">中等</font>|`数组` `回溯算法`|
 |41|[缺失的第一个正数](https://maxwell-l.github.io/WriteSomething/leetcode/firstMissingPositive)|<font color="#EC4C47">困难</font>|`数组`|
 |146|[LRU缓存机制](https://maxwell-l.github.io/WriteSomething/leetcode/LRUCache)|<font color="#ED7336">中等</font>|`设计`|
 
