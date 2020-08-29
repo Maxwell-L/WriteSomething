@@ -32,7 +32,6 @@ cache.get(4);       // 返回  4
 链接：[https://leetcode-cn.com/problems/lru-cache](https://leetcode-cn.com/problems/lru-cache)
 
 
-
 ### **题解**
 ``` java
 class LRUCache {
