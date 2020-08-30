@@ -1,6 +1,6 @@
 ## **LeetCode**
 ------------------
-
+### **Algorithms**
 |#|题名|难度|相关标签|
 |:-|:-|:-|:-|
 |1|[两数之和](https://maxwell-l.github.io/WriteSomething/leetcode/twoSum)|<font color="#009975">简单</font>|`数组` `哈希表`|
@@ -49,5 +49,9 @@
 |146|[LRU缓存机制](https://maxwell-l.github.io/WriteSomething/leetcode/LRUCache)|<font color="#ED7336">中等</font>|`设计`|
 
 
+### **Database**
+|#|题名|难度|
+|:-|:-|:-|
+|175|[组合两个表](https://maxwell-l.github.io/WriteSomething/leetcode/CombineTwoTables)|<font color="#009975">简单</font>|
 
 [返回首页](https://maxwell-l.github.io/WriteSomething)
