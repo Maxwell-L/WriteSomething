@@ -28,6 +28,8 @@ AddressId 是上表主键
 FirstName, LastName, City, State
 ```
 
+链接：[https://leetcode-cn.com/problems/combine-two-tables](https://leetcode-cn.com/problems/combine-two-tables)
+
 ### **题解**
 ``` sql
 # Write your MySQL query statement below
