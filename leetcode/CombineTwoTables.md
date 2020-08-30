@@ -5,6 +5,8 @@
 SQL架构  
 
 表1: Person
+
+
 |列名|类型|
 |:-|:-|
 |PersonId|int|
@@ -13,6 +15,8 @@ SQL架构
 PersonId 是上表主键  
 
 表2: Address
+
+
 |列名|类型|
 |:-|:-|
 |AddressId|int|
