@@ -1,7 +1,8 @@
 ## **LeetCode**
 ------------------
 
-### **Algorithms**
+### **Algorithms**  
+
 
 |#|题名|难度|相关标签|
 |:-|:-|:-|:-|
@@ -50,6 +51,7 @@
 |47|[全排列 II](https://maxwell-l.github.io/WriteSomething/leetcode/permuteUnique)|<font color="#ED7336">中等</font>|`回溯算法`|
 |146|[LRU缓存机制](https://maxwell-l.github.io/WriteSomething/leetcode/LRUCache)|<font color="#ED7336">中等</font>|`设计`|
 
+  
 
 ### **Database**
 |#|题名|难度|
