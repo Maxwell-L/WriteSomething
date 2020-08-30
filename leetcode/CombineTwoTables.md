@@ -12,6 +12,7 @@ SQL架构
 |PersonId|int|
 |FirstName|varchar|
 |LastName|varchar|
+
 PersonId 是上表主键  
 
 表2: Address
@@ -23,6 +24,7 @@ PersonId 是上表主键
 |PersonId|int|
 |City|varchar|
 |State|varchar|
+
 AddressId 是上表主键
  
 
