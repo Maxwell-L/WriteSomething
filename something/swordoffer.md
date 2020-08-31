@@ -54,7 +54,7 @@
 |JZ49|综合|[把字符串转换成整数](https://github.com/Maxwell-L/SwordOffer/blob/master/Code/StrToIntSolution.java)|
 |JZ50|数组|[数组中重复的数字](https://github.com/Maxwell-L/SwordOffer/blob/master/Code/DuplicateSolution.java)|
 |JZ51|数组|[构建乘积数组](https://github.com/Maxwell-L/SwordOffer/blob/master/Code/MultiplySolution.java)|
-|JZ52|字符串|[正则表达式匹配](https://github.com/Maxwell-L/SwordOffer/blob/master/Code/match)|
+|JZ52|字符串|[正则表达式匹配](https://maxwell-l.github.io/WriteSomething/SwordOffer/match)|
 |JZ53|字符串|[表示数值的字符串](https://maxwell-l.github.io/WriteSomething/SwordOffer/isnumeric)|
 |JZ54|字符串|[字符流中第一个不重复的字符](https://maxwell-l.github.io/WriteSomething/SwordOffer/firstsinglechar)|
 |JZ55|链表|[链表中环的入口结点](https://github.com/Maxwell-L/SwordOffer/blob/master/Code/EntryNodeOfLoopSolution.java)|
