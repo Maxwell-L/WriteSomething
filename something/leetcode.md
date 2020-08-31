@@ -60,5 +60,6 @@
 |:-|:-|:-|
 |175|[组合两个表](https://maxwell-l.github.io/WriteSomething/leetcode/CombineTwoTables)|<font color="#009975">简单</font>|
 |176|[第二高的薪水](https://maxwell-l.github.io/WriteSomething/leetcode/SecondHighestSalary)|<font color="#009975">简单</font>|
+|177|[第N高的薪水](https://maxwell-l.github.io/WriteSomething/leetcode/NthHighestSalary)|<font color="#ED7336">中等</font>|
 
 [返回首页](https://maxwell-l.github.io/WriteSomething)
