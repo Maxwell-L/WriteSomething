@@ -1,0 +1,72 @@
+## **43 - 字符串相乘**
+---------------------------
+
+### **题目描述**
+给定两个以字符串形式表示的非负整数 num1 和 num2，返回 num1 和 num2 的乘积，它们的乘积也表示为字符串形式。
+
+示例 1:
+```
+输入: num1 = "2", num2 = "3"
+输出: "6"
+```
+示例 2:
+```
+输入: num1 = "123", num2 = "456"
+输出: "56088"
+```
+说明：
+```
+1. num1 和 num2 的长度小于110。
+2. num1 和 num2 只包含数字 0-9。
+3. num1 和 num2 均不以零开头，除非是数字 0 本身。
+4. 不能使用任何标准库的大数类型（比如 BigInteger）或直接将输入转换为整数来处理。
+```
+
+链接：[https://leetcode-cn.com/problems/multiply-strings](https://leetcode-cn.com/problems/multiply-strings)
+
+
+
+### **题解**
+``` java
+class Solution {
+    public String multiply(String num1, String num2) {
+        if(num1 == null || num2 == null) {
+            return new String();
+        }
+        if(num1.length() < num2.length()) {
+            return multiply(num2, num1);
+        }
+        if(num1.equals("0") || num2.equals("0")) {
+            return "0";
+        }
+        List<Integer> list = new ArrayList<>();
+        for(int i = num2.length() - 1, index = 0; i >= 0; i--, index++) {
+            int n1 = num2.charAt(i) - '0';
+            int carry = 0;
+            for(int j = num1.length() - 1, index2 = index; j >= 0; j--, index2++) {
+                int n2 = num1.charAt(j) - '0';
+                int n3 = 0;
+                if(index2 < list.size()) {
+                    n3 = list.get(index2);
+                    list.set(index2, (n1 * n2 + n3 + carry) % 10);
+                } else {
+                    list.add((n1 * n2 + n3 + carry) % 10);
+                }
+                carry = (n1 * n2 + n3 + carry) / 10;
+            }
+            if(carry != 0) {
+                list.add(carry);
+                carry = 0;
+            }
+        }
+        StringBuilder sb = new StringBuilder();
+        for(int i = list.size() - 1; i >= 0; i--) {
+            sb.append(list.get(i));
+        }
+        return sb.toString();
+    }
+}
+```
+
+
+[返回目录](https://maxwell-l.github.io/WriteSomething/something/leetcode)

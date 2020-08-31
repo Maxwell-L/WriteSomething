@@ -47,6 +47,7 @@
 |40|[组合总和 II](https://maxwell-l.github.io/WriteSomething/leetcode/combinationSum2)|<font color="#ED7336">中等</font>|`数组` `回溯算法`|
 |41|[缺失的第一个正数](https://maxwell-l.github.io/WriteSomething/leetcode/firstMissingPositive)|<font color="#EC4C47">困难</font>|`数组`|
 |42|[接雨水](https://maxwell-l.github.io/WriteSomething/leetcode/trap)|<font color="#EC4C47">困难</font>|`栈` `数组` `双指针`|
+|43|[字符串相乘](https://maxwell-l.github.io/WriteSomething/leetcode/multiply)|<font color="#ED7336">中等</font>|`数学` `字符串`|
 |46|[全排列](https://maxwell-l.github.io/WriteSomething/leetcode/permute)|<font color="#ED7336">中等</font>|`回溯算法`|
 |47|[全排列 II](https://maxwell-l.github.io/WriteSomething/leetcode/permuteUnique)|<font color="#ED7336">中等</font>|`回溯算法`|
 |146|[LRU缓存机制](https://maxwell-l.github.io/WriteSomething/leetcode/LRUCache)|<font color="#ED7336">中等</font>|`设计`|
