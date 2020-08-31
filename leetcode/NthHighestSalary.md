@@ -21,7 +21,7 @@ SQL架构
 |200|
 
 
-链接：[https://leetcode-cn.com/problems/second-highest-salary](https://leetcode-cn.com/problems/nth-highest-salary)
+链接：[https://leetcode-cn.com/problems/nth-highest-salary](https://leetcode-cn.com/problems/nth-highest-salary)
 
 
 ### **题解**
