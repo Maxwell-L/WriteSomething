@@ -52,6 +52,7 @@
 |45|[跳跃游戏 II](https://maxwell-l.github.io/WriteSomething/leetcode/jump)|<font color="#EC4C47">困难</font>|`贪心算法` `数组`|
 |46|[全排列](https://maxwell-l.github.io/WriteSomething/leetcode/permute)|<font color="#ED7336">中等</font>|`回溯算法`|
 |47|[全排列 II](https://maxwell-l.github.io/WriteSomething/leetcode/permuteUnique)|<font color="#ED7336">中等</font>|`回溯算法`|
+|94|[二叉树的中序遍历](https://maxwell-l.github.io/WriteSomething/leetcode/inorderTraversal)|<font color="#ED7336">中等</font>|`栈` `树` `哈希表`|
 |146|[LRU缓存机制](https://maxwell-l.github.io/WriteSomething/leetcode/LRUCache)|<font color="#ED7336">中等</font>|`设计`|
 
   
