@@ -53,6 +53,7 @@
 |46|[全排列](https://maxwell-l.github.io/WriteSomething/leetcode/permute)|<font color="#ED7336">中等</font>|`回溯算法`|
 |47|[全排列 II](https://maxwell-l.github.io/WriteSomething/leetcode/permuteUnique)|<font color="#ED7336">中等</font>|`回溯算法`|
 |94|[二叉树的中序遍历](https://maxwell-l.github.io/WriteSomething/leetcode/inorderTraversal)|<font color="#ED7336">中等</font>|`栈` `树` `哈希表`|
+|144|[二叉树的前序遍历](https://maxwell-l.github.io/WriteSomething/leetcode/preorderTraversal)|<font color="#ED7336">中等</font>|`栈` `树`|
 |146|[LRU缓存机制](https://maxwell-l.github.io/WriteSomething/leetcode/LRUCache)|<font color="#ED7336">中等</font>|`设计`|
 
   
