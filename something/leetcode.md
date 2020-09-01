@@ -49,6 +49,7 @@
 |42|[接雨水](https://maxwell-l.github.io/WriteSomething/leetcode/trap)|<font color="#EC4C47">困难</font>|`栈` `数组` `双指针`|
 |43|[字符串相乘](https://maxwell-l.github.io/WriteSomething/leetcode/multiply)|<font color="#ED7336">中等</font>|`数学` `字符串`|
 |44|[通配符匹配](https://maxwell-l.github.io/WriteSomething/leetcode/isMatch2)|<font color="#EC4C47">困难</font>|`贪心算法` `字符串` `动态规划` `回溯算法`|
+|45|[跳跃游戏 II](https://maxwell-l.github.io/WriteSomething/leetcode/jump)|<font color="#EC4C47">困难</font>|`贪心算法` `数组`|
 |46|[全排列](https://maxwell-l.github.io/WriteSomething/leetcode/permute)|<font color="#ED7336">中等</font>|`回溯算法`|
 |47|[全排列 II](https://maxwell-l.github.io/WriteSomething/leetcode/permuteUnique)|<font color="#ED7336">中等</font>|`回溯算法`|
 |146|[LRU缓存机制](https://maxwell-l.github.io/WriteSomething/leetcode/LRUCache)|<font color="#ED7336">中等</font>|`设计`|
