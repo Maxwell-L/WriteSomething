@@ -68,5 +68,6 @@
 |176|[第二高的薪水](https://maxwell-l.github.io/WriteSomething/leetcode/SecondHighestSalary)|<font color="#009975">简单</font>|
 |177|[第N高的薪水](https://maxwell-l.github.io/WriteSomething/leetcode/NthHighestSalary)|<font color="#ED7336">中等</font>|
 |178|[分数排名](https://maxwell-l.github.io/WriteSomething/leetcode/RankScores)|<font color="#ED7336">中等</font>|
+|181|[超过经理收入的员工](https://maxwell-l.github.io/WriteSomething/leetcode/EmployeesEarningMoreThanTheirManagers)|<font color="#009975">简单</font>|
 
 [返回首页](https://maxwell-l.github.io/WriteSomething)
