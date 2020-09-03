@@ -54,6 +54,7 @@
 |47|[全排列 II](https://maxwell-l.github.io/WriteSomething/leetcode/permuteUnique)|<font color="#ED7336">中等</font>|`回溯算法`|
 |50|[Pow(x, n)](https://maxwell-l.github.io/WriteSomething/leetcode/myPow)|<font color="#ED7336">中等</font>|`数学` `二分查找`|
 |94|[二叉树的中序遍历](https://maxwell-l.github.io/WriteSomething/leetcode/inorderTraversal)|<font color="#ED7336">中等</font>|`栈` `树` `哈希表`|
+|105|[从前序与中序遍历序列构造二叉树](https://maxwell-l.github.io/WriteSomething/leetcode/buildTree)|<font color="#ED7336">中等</font>|`树` `深度优先搜索` `数组`|
 |110|[平衡二叉树](https://maxwell-l.github.io/WriteSomething/leetcode/isBalanced)|<font color="#009975">简单</font>|`树` `深度优先搜索`|
 |144|[二叉树的前序遍历](https://maxwell-l.github.io/WriteSomething/leetcode/preorderTraversal)|<font color="#ED7336">中等</font>|`栈` `树`|
 |145|[二叉树的后序遍历](https://maxwell-l.github.io/WriteSomething/leetcode/postorderTraversal)|<font color="#ED7336">中等</font>|`栈` `树`|
