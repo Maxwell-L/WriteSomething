@@ -22,8 +22,8 @@ class Node {
 
  
 
-示例 1：
-
+示例 1：  
+![图片加载失败](https://maxwell-l.github.io/WriteSomething/image/clonegraph1.png)
 
 ```
 输入：adjList = [[2,4],[1,3],[2,4],[1,3]]
@@ -35,20 +35,21 @@ class Node {
 节点 3 的值是 3，它有两个邻居：节点 2 和 4 。
 节点 4 的值是 4，它有两个邻居：节点 1 和 3 。
 ```
-示例 2：
-
+示例 2：  
+![图片加载失败](https://maxwell-l.github.io/WriteSomething/image/clonegraph2.png)
 ```
 输入：adjList = [[]]
 输出：[[]]
 解释：输入包含一个空列表。该图仅仅只有一个值为 1 的节点，它没有任何邻居。
 ```
-示例 3：
+示例 3：  
 ```
 输入：adjList = []
 输出：[]
 解释：这个图是空的，它不含任何节点。
 ```
-示例 4：
+示例 4：  
+![图片加载失败](https://maxwell-l.github.io/WriteSomething/image/clonegraph3.png)
 ```
 输入：adjList = [[2],[1]]
 输出：[[2],[1]]
