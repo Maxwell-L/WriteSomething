@@ -13,11 +13,11 @@
 
 空白格用 '.' 表示。
 
-
+![图片加载失败](https://maxwell-l.github.io/WriteSomething/image/solvesudoku1.png)
 
 一个数独。
 
-
+![图片加载失败](https://maxwell-l.github.io/WriteSomething/image/solvesudoku2.png)
 
 答案被标成红色。
 
