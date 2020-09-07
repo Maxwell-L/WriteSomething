@@ -18,15 +18,15 @@
 * [LeetCode](https://maxwell-l.github.io/WriteSomething/something/leetcode)
 
 ### **MySQL**
-* [MySQL事务 - MVCC](https://maxwell-l.github.io/WriteSomething/something/mvcc)
+* [MySQL事务 - MVCC](https://maxwell-l.github.io/WriteSomething/mysql/mvcc)
 
 ### **Linux**
-* [Linux中的进程](https://maxwell-l.github.io/WriteSomething/something/linuxtask)
-* [Linux中的调度策略](https://maxwell-l.github.io/WriteSomething/something/linuxsched)
+* [Linux中的进程](https://maxwell-l.github.io/WriteSomething/linux/linuxtask)
+* [Linux中的调度策略](https://maxwell-l.github.io/WriteSomething/linux/linuxsched)
 
 ### **Redis**
 * [Redis 五种常用数据类型](https://maxwell-l.github.io/WriteSomething/something/redisdatatypes)
 * [Redis 主从复制](https://maxwell-l.github.io/WriteSomething/something/redismasterslave)
 
 ### **Spring**
-* [Spring 事务抽象](https://maxwell-l.github.io/WriteSomething/something/springtransaction)
+* [Spring 事务抽象](https://maxwell-l.github.io/WriteSomething/spring/springtransaction)
