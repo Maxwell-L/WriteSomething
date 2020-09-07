@@ -1,11 +1,11 @@
 ## **首页**
 -------------
 ### **Java 基础**
-* [hashcode & equals](https://maxwell-l.github.io/WriteSomething/something/hashcode%20equals)
-* [Override & Overload](https://maxwell-l.github.io/WriteSomething/something/override%20overload)
-* [Java中的封装/继承/多态](https://maxwell-l.github.io/WriteSomething/something/featuresOfJava)
-* [abstract class & interface](https://maxwell-l.github.io/WriteSomething/something/abstractclass%20interface)
-* [类加载器 & 双亲委托模型](https://maxwell-l.github.io/WriteSomething/something/classloader)
+* [hashcode & equals](https://maxwell-l.github.io/WriteSomething/javaoverview/hashcode%20equals)
+* [Override & Overload](https://maxwell-l.github.io/WriteSomething/javaoverview/override%20overload)
+* [Java中的封装/继承/多态](https://maxwell-l.github.io/WriteSomething/javaoverview/featuresOfJava)
+* [abstract class & interface](https://maxwell-l.github.io/WriteSomething/javaoverview/abstractclass%20interface)
+* [类加载器 & 双亲委托模型](https://maxwell-l.github.io/WriteSomething/javaoverview/classloader)
 
 ### **数据结构与算法**
 * [排序算法的实现](https://maxwell-l.github.io/WriteSomething/something/sortalgorithms)
