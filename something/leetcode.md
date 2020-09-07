@@ -83,5 +83,6 @@
 |182|[查找重复的电子邮箱](https://maxwell-l.github.io/WriteSomething/leetcode/DuplicateEmails)|<font color="#009975">简单</font>|
 |183|[从不订购的客户](https://maxwell-l.github.io/WriteSomething/leetcode/CustomersWhoNeverOrder)|<font color="#009975">简单</font>|
 |184|[部门工资最高的员工](https://maxwell-l.github.io/WriteSomething/leetcode/DepartmentHighestSalary)|<font color="#ED7336">中等</font>|
+|185|[部门工资前三高的所有员工](https://maxwell-l.github.io/WriteSomething/leetcode/DepartmentTopThreeSalaries)|<font color="#EC4C47">困难</font>|
 
 [返回首页](https://maxwell-l.github.io/WriteSomething)
