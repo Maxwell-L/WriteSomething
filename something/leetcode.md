@@ -56,6 +56,7 @@
 |48|[旋转图像](https://maxwell-l.github.io/WriteSomething/leetcode/rotate)|<font color="#ED7336">中等</font>|`数组`|
 |49|[字母异位词分组](https://maxwell-l.github.io/WriteSomething/leetcode/groupAnagrams)|<font color="#ED7336">中等</font>|`哈希表` `字符串`|
 |50|[Pow(x, n)](https://maxwell-l.github.io/WriteSomething/leetcode/myPow)|<font color="#ED7336">中等</font>|`数学` `二分查找`|
+|53|[最大子序和](https://maxwell-l.github.io/WriteSomething/leetcode/maxSubArray)|<font color="#009975">简单</font>|`数组` `分治算法` `动态规划`|
 |94|[二叉树的中序遍历](https://maxwell-l.github.io/WriteSomething/leetcode/inorderTraversal)|<font color="#ED7336">中等</font>|`栈` `树` `哈希表`|
 |96|[不同的二叉搜索树](https://maxwell-l.github.io/WriteSomething/leetcode/numTrees)|<font color="#ED7336">中等</font>|`树` `动态规划`|
 |103|[二叉树的锯齿形层次遍历](https://maxwell-l.github.io/WriteSomething/leetcode/zigzagLevelOrder)|<font color="#ED7336">中等</font>|`栈` `树` `深度优先搜索`|
