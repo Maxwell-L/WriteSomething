@@ -21,6 +21,7 @@
 * [MySQL事务 - MVCC](https://maxwell-l.github.io/WriteSomething/mysql/mvcc)
 
 ### **Linux**
+* [Linux安装配置JDK](https://maxwell-l.github.io/WriteSomething/linux/configJava)
 * [Linux中的进程](https://maxwell-l.github.io/WriteSomething/linux/linuxtask)
 * [Linux中的调度策略](https://maxwell-l.github.io/WriteSomething/linux/linuxsched)
 
