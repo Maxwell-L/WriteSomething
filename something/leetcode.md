@@ -87,4 +87,14 @@
 |184|[部门工资最高的员工](https://maxwell-l.github.io/WriteSomething/leetcode/DepartmentHighestSalary)|<font color="#ED7336">中等</font>|
 |185|[部门工资前三高的所有员工](https://maxwell-l.github.io/WriteSomething/leetcode/DepartmentTopThreeSalaries)|<font color="#EC4C47">困难</font>|
 
+
+
+### **Concurrency**
+
+
+|#|题名|难度|
+|:-|:-|:-|
+|1115|[交替打印FooBar](https://maxwell-l.github.io/WriteSomething/leetcode/FooBar)|<font color="#ED7336">中等</font>|
+
+
 [返回首页](https://maxwell-l.github.io/WriteSomething)
