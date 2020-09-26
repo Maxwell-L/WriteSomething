@@ -94,6 +94,7 @@
 
 |#|题名|难度|
 |:-|:-|:-|
+|1114|[按序打印](https://maxwell-l.github.io/WriteSomething/leetcode/Foo)|<font color="#009975">简单</font>|
 |1115|[交替打印FooBar](https://maxwell-l.github.io/WriteSomething/leetcode/FooBar)|<font color="#ED7336">中等</font>|
 
 
