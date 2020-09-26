@@ -96,6 +96,7 @@
 |:-|:-|:-|
 |1114|[按序打印](https://maxwell-l.github.io/WriteSomething/leetcode/Foo)|<font color="#009975">简单</font>|
 |1115|[交替打印FooBar](https://maxwell-l.github.io/WriteSomething/leetcode/FooBar)|<font color="#ED7336">中等</font>|
+|1116|[打印零与奇偶数](https://maxwell-l.github.io/WriteSomething/leetcode/ZeroEvenOdd)|<font color="#ED7336">中等</font>|
 
 
 [返回首页](https://maxwell-l.github.io/WriteSomething)
