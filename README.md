@@ -31,3 +31,7 @@
 
 ### **Spring**
 * [Spring 事务抽象](https://maxwell-l.github.io/WriteSomething/spring/springtransaction)
+
+
+### **设计模式**
+* [代理模式](https://maxwell-l.github.io/WriteSomething/designpattern/proxy)
