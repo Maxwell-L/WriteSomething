@@ -22,7 +22,7 @@ public class EscapeAnalysisDemo {
     }
 }
 ```
-**结果**  
+**结果**    
 ![图片加载失败](https://maxwell-l.github.io/WriteSomething/image/escapeanalysis1.png)  
 
 
@@ -31,7 +31,7 @@ public class EscapeAnalysisDemo {
 -XX:-DoEscapeAnalysis
 -XX:+PrintGC
 ```
-**结果**
+**结果**  
 ![图片加载失败](https://maxwell-l.github.io/WriteSomething/image/escapeanalysis2.png)  
 
 
