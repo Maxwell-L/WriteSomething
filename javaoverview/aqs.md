@@ -20,7 +20,9 @@ static final class Node {
  */
 private volatile int state;
 ```
-* 对于一个请求共享资源的线程，**AQS**将其封装成一个**AQS**中的静态内部类**Node**对象，存进**CLH**队列的队尾。
+
+* 对于一个请求共享资源的线程，**AQS**将其封装成一个**AQS**中的静态内部类**Node**对象，存进**CLH**队列的队尾。  
+
 ``` java
 /**
  * Creates and enqueues node for current thread and given mode.
