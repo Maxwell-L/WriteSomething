@@ -6,6 +6,7 @@
 * [Java中的封装/继承/多态](https://maxwell-l.github.io/WriteSomething/javaoverview/featuresOfJava)
 * [abstract class & interface](https://maxwell-l.github.io/WriteSomething/javaoverview/abstractclass%20interface)
 * [类加载器 & 双亲委托模型](https://maxwell-l.github.io/WriteSomething/javaoverview/classloader)
+* [AQS源码阅读](https://maxwell-l.github.io/WriteSomething/javaoverview/aqs)
 
 ### **JVM**
 * [逃逸分析](https://maxwell-l.github.io/WriteSomething/jvm/escapeanalysis)
