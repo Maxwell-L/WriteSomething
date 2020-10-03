@@ -73,13 +73,127 @@ private Node enq(final Node node) {
 }
 ```
 
+* **AQS** 通过 *acquire(int arg)* 方法尝试抢占资源
+
+``` java
+/**
+ * Acquires in exclusive mode, ignoring interrupts.  Implemented
+ * by invoking at least once {@link #tryAcquire},
+ * returning on success.  Otherwise the thread is queued, possibly
+ * repeatedly blocking and unblocking, invoking {@link
+ * #tryAcquire} until success.  This method can be used
+ * to implement method {@link Lock#lock}.
+ *
+ * @param arg the acquire argument.  This value is conveyed to
+ *        {@link #tryAcquire} but is otherwise uninterpreted and
+ *        can represent anything you like.
+ */
+public final void acquire(int arg) {
+    // tryAcquire(arg)由同步器根据需要各自实现
+    // 获取锁失败时将当前线程封装为独占模式的Node存入CLH队列并不断竞争锁, 若此过程该线程被中断过则返回true, 否则返回false, 竞争过程不处理中断
+    // 如果在竞争锁过程中被中断过, 则在此中断
+    if (!tryAcquire(arg) &&
+        acquireQueued(addWaiter(Node.EXCLUSIVE), arg))
+        selfInterrupt();
+}
+```
 
 ### **ReentrantLock实现的同步器**
 ![图片加载失败](https://maxwell-l.github.io/WriteSomething/image/aqs1.jpg)
+* **ReentrantLock** 的共享资源模式为独占，其静态内部抽象类**Sync**继承于**AQS**，基于此的公平锁和非公平锁继承了**Sync**，实现了各自抢占资源的方法。
+
+``` java
+/**
+ * Sync object for non-fair locks
+ */
+static final class NonfairSync extends Sync {
+    private static final long serialVersionUID = 7316153563782823691L;
+
+    /**
+     * Performs lock.  Try immediate barge, backing up to normal
+     * acquire on failure.
+     */
+    final void lock() {
+        // 非公平锁先尝试抢占资源, 通过CAS设置state, 若成功即把当前线程设置为独占线程, 否则
+        if (compareAndSetState(0, 1))
+            setExclusiveOwnerThread(Thread.currentThread());
+        else
+            acquire(1);
+    }
+
+    protected final boolean tryAcquire(int acquires) {
+        return nonfairTryAcquire(acquires);
+    }
+}
+
+/**
+ * Performs non-fair tryLock.  tryAcquire is implemented in
+ * subclasses, but both need nonfair try for trylock method.
+ */
+final boolean nonfairTryAcquire(int acquires) {
+    final Thread current = Thread.currentThread();
+    int c = getState();
+    // 若c(state)为0, 则当前锁没有被锁定, 获取锁并且将占有线程设置为当前线程
+    if (c == 0) {
+        if (compareAndSetState(0, acquires)) {
+            setExclusiveOwnerThread(current);
+            return true;
+        }
+    }
+    // state不为0但占有线程是当前线程, 说明是重入, state增加即可
+    else if (current == getExclusiveOwnerThread()) {
+        int nextc = c + acquires;
+        if (nextc < 0) // overflow
+            throw new Error("Maximum lock count exceeded");
+        setState(nextc);
+        return true;
+    }
+    // 竞争锁失败返回false
+    return false;
+}
+        
+/**
+ * Sync object for fair locks
+ */
+static final class FairSync extends Sync {
+    private static final long serialVersionUID = -3000897897090466540L;
+
+    final void lock() {
+        acquire(1);
+    }
+
+    /**
+     * Fair version of tryAcquire.  Don't grant access unless
+     * recursive call or no waiters or is first.
+     */
+    protected final boolean tryAcquire(int acquires) {
+        final Thread current = Thread.currentThread();
+        int c = getState();
+        // 当前锁没被占有, 尝试
+        if (c == 0) {
+            // 判断是否有前面的节点在抢占锁
+            // 没有则可以尝试抢占锁(公平)
+            if (!hasQueuedPredecessors() &&
+                compareAndSetState(0, acquires)) {
+                setExclusiveOwnerThread(current);
+                return true;
+            }
+        }
+        // 占有锁线程是当前线程, 重入
+        else if (current == getExclusiveOwnerThread()) {
+            int nextc = c + acquires;
+            if (nextc < 0)
+                throw new Error("Maximum lock count exceeded");
+            setState(nextc);
+            return true;
+        }
+        return false;
+    }
+}
+```
 
 
-
-
+### **ReentrantReadWriteLock实现的同步器**
 
 
 
