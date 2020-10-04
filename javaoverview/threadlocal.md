@@ -193,7 +193,7 @@ private void remove(ThreadLocal<?> key) {
 ```
 
 ### **ThreadLocal 内存泄漏问题**
-
+![图片加载失败](https://maxwell-l.github.io/WriteSomething/image/threadlocal2.jpg)
 
 
 [返回首页](https://maxwell-l.github.io/WriteSomething)
