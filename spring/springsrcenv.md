@@ -28,9 +28,12 @@
 ![图片加载失败](https://maxwell-l.github.io/WriteSomething/image/springsrcenv3.png)
 * 以管理员身份运行 `Windows PowerShell`，进入 **Spring-5.0.0.RELEASE** 目录下，运行 `.\gradlew :spring-oxm:compileTestJava`，由于网络问题可能失败，多尝试几次即可成功。  
 ![图片加载失败](https://maxwell-l.github.io/WriteSomething/image/springsrcenv4.png)
+
 * 进入**IDEA**，配置 **GRADLE**，如图，设置 `gradle user home` 存放下载的包，IDEA会自动构建工程  
-![图片加载失败](https://maxwell-l.github.io/WriteSomething/image/springsrcenv5.png)  
-![图片加载失败](https://maxwell-l.github.io/WriteSomething/image/springsrcenv6.png) 
+
+    ![图片加载失败](https://maxwell-l.github.io/WriteSomething/image/springsrcenv5.png)  
+    ![图片加载失败](https://maxwell-l.github.io/WriteSomething/image/springsrcenv6.png) 
+
 * 工程构建完成后，打开 `build.gradle` 文件，按以下所示注释掉生成文档的部分：  
 
     ``` gradle
@@ -45,14 +48,40 @@
         //	archives distZip
     }
     ```
+
 * 点击 **IDEA** 右侧的 `gradle`，如图所示，执行指令 `build -x test`   
-![图片加载失败](https://maxwell-l.github.io/WriteSomething/image/springsrcenv7.png)  
-![图片加载失败](https://maxwell-l.github.io/WriteSomething/image/springsrcenv8.png)
+
+    ![图片加载失败](https://maxwell-l.github.io/WriteSomething/image/springsrcenv7.png)  
+    ![图片加载失败](https://maxwell-l.github.io/WriteSomething/image/springsrcenv8.png)
 
 至此，**Spring** 源码阅读环境搭建完毕
 
 ### **Spring 源码调试模块搭建**
+* 在项目工程下新建模块：File -> New -> Module...，选择 `Gradle`，next -> ...
+* 打开新建模块下自动生成的 `build.gradle` 文件，在 `dependencies` 下增加一行 `compile(project(':spring-context'))`
+* 建立测试类：
 
+    ``` java
+    public class HelloSpring {
+        public void hello() {
+            System.out.println("Hello Spring!");
+        }
+    }
+    ```
+
+    ``` java
+    public class HelloClient {
+        public static void main(String[] args) {
+            AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext();
+            context.refresh();
+            context.register(HelloSpring.class);
+            HelloSpring helloSpring = (HelloSpring) context.getBean("helloSpring");
+            helloSpring.hello();
+        }
+    }
+    ```
+* 运行  
+![图片加载失败](https://maxwell-l.github.io/WriteSomething/image/springsrcenv9.png)
 
 [返回首页](https://maxwell-l.github.io/WriteSomething)
 
