@@ -116,64 +116,64 @@ public interface TransactionDefinition {
 ### **Spring 事务隔离级别**
 * **Spring**源码 `TransactionDefinition.java` 中描述了**Spring**的事务隔离级别  
 
-``` java
-public interface TransactionDefinition {
-    ...
-    ...
-    /**
-	 * Use the default isolation level of the underlying datastore.
-	 * All other levels correspond to the JDBC isolation levels.
-	 * @see java.sql.Connection
-	 */
-	int ISOLATION_DEFAULT = -1;
+	``` java
+	public interface TransactionDefinition {
+		// ...
+		// ...
+		/**
+		* Use the default isolation level of the underlying datastore.
+		* All other levels correspond to the JDBC isolation levels.
+		* @see java.sql.Connection
+		*/
+		int ISOLATION_DEFAULT = -1;
 
-	/**
-	 * Indicates that dirty reads, non-repeatable reads and phantom reads
-	 * can occur.
-	 * <p>This level allows a row changed by one transaction to be read by another
-	 * transaction before any changes in that row have been committed (a "dirty read").
-	 * If any of the changes are rolled back, the second transaction will have
-	 * retrieved an invalid row.
-	 * @see java.sql.Connection#TRANSACTION_READ_UNCOMMITTED
-	 */
-	int ISOLATION_READ_UNCOMMITTED = 1;  // same as java.sql.Connection.TRANSACTION_READ_UNCOMMITTED;
+		/**
+		* Indicates that dirty reads, non-repeatable reads and phantom reads
+		* can occur.
+		* <p>This level allows a row changed by one transaction to be read by another
+		* transaction before any changes in that row have been committed (a "dirty read").
+		* If any of the changes are rolled back, the second transaction will have
+		* retrieved an invalid row.
+		* @see java.sql.Connection#TRANSACTION_READ_UNCOMMITTED
+		*/
+		int ISOLATION_READ_UNCOMMITTED = 1;  // same as java.sql.Connection.TRANSACTION_READ_UNCOMMITTED;
 
-	/**
-	 * Indicates that dirty reads are prevented; non-repeatable reads and
-	 * phantom reads can occur.
-	 * <p>This level only prohibits a transaction from reading a row
-	 * with uncommitted changes in it.
-	 * @see java.sql.Connection#TRANSACTION_READ_COMMITTED
-	 */
-	int ISOLATION_READ_COMMITTED = 2;  // same as java.sql.Connection.TRANSACTION_READ_COMMITTED;
+		/**
+		* Indicates that dirty reads are prevented; non-repeatable reads and
+		* phantom reads can occur.
+		* <p>This level only prohibits a transaction from reading a row
+		* with uncommitted changes in it.
+		* @see java.sql.Connection#TRANSACTION_READ_COMMITTED
+		*/
+		int ISOLATION_READ_COMMITTED = 2;  // same as java.sql.Connection.TRANSACTION_READ_COMMITTED;
 
-	/**
-	 * Indicates that dirty reads and non-repeatable reads are prevented;
-	 * phantom reads can occur.
-	 * <p>This level prohibits a transaction from reading a row with uncommitted changes
-	 * in it, and it also prohibits the situation where one transaction reads a row,
-	 * a second transaction alters the row, and the first transaction re-reads the row,
-	 * getting different values the second time (a "non-repeatable read").
-	 * @see java.sql.Connection#TRANSACTION_REPEATABLE_READ
-	 */
-	int ISOLATION_REPEATABLE_READ = 4;  // same as java.sql.Connection.TRANSACTION_REPEATABLE_READ;
+		/**
+		* Indicates that dirty reads and non-repeatable reads are prevented;
+		* phantom reads can occur.
+		* <p>This level prohibits a transaction from reading a row with uncommitted changes
+		* in it, and it also prohibits the situation where one transaction reads a row,
+		* a second transaction alters the row, and the first transaction re-reads the row,
+		* getting different values the second time (a "non-repeatable read").
+		* @see java.sql.Connection#TRANSACTION_REPEATABLE_READ
+		*/
+		int ISOLATION_REPEATABLE_READ = 4;  // same as java.sql.Connection.TRANSACTION_REPEATABLE_READ;
 
-	/**
-	 * Indicates that dirty reads, non-repeatable reads and phantom reads
-	 * are prevented.
-	 * <p>This level includes the prohibitions in {@link #ISOLATION_REPEATABLE_READ}
-	 * and further prohibits the situation where one transaction reads all rows that
-	 * satisfy a {@code WHERE} condition, a second transaction inserts a row
-	 * that satisfies that {@code WHERE} condition, and the first transaction
-	 * re-reads for the same condition, retrieving the additional "phantom" row
-	 * in the second read.
-	 * @see java.sql.Connection#TRANSACTION_SERIALIZABLE
-	 */
-	int ISOLATION_SERIALIZABLE = 8;  // same as java.sql.Connection.TRANSACTION_SERIALIZABLE;
-    ...
-    ...
-}
-```
+		/**
+		* Indicates that dirty reads, non-repeatable reads and phantom reads
+		* are prevented.
+		* <p>This level includes the prohibitions in {@link #ISOLATION_REPEATABLE_READ}
+		* and further prohibits the situation where one transaction reads all rows that
+		* satisfy a {@code WHERE} condition, a second transaction inserts a row
+		* that satisfies that {@code WHERE} condition, and the first transaction
+		* re-reads for the same condition, retrieving the additional "phantom" row
+		* in the second read.
+		* @see java.sql.Connection#TRANSACTION_SERIALIZABLE
+		*/
+		int ISOLATION_SERIALIZABLE = 8;  // same as java.sql.Connection.TRANSACTION_SERIALIZABLE;
+		// ...
+		// ...
+	}
+	```
 总结为：  
 
 隔离级别|值|描述
@@ -186,17 +186,18 @@ public interface TransactionDefinition {
 
 ### **Spring 事务的默认配置**
 * **Spring**源码`DefaultTransactionDefinition.java`中定义了**Spring**事务的默认配置：
-``` java
-public class DefaultTransactionDefinition implements TransactionDefinition, Serializable {
-    ...
-    ...
-	private int propagationBehavior = PROPAGATION_REQUIRED;
 
-	private int isolationLevel = ISOLATION_DEFAULT;
-    ...
-    ...
-}
-```
+	``` java
+	public class DefaultTransactionDefinition implements TransactionDefinition, Serializable {
+		...
+		...
+		private int propagationBehavior = PROPAGATION_REQUIRED;
+
+		private int isolationLevel = ISOLATION_DEFAULT;
+		...
+		...
+	}
+	```
 * 由上可知，**Spring**事务默认**传播行为**为`PROPAGATION_REQUIRED`，默认**隔离级别**为使用底层数据库的隔离级别。
 
 
