@@ -61,4 +61,4 @@
 ![图片加载失败](https://maxwell-l.github.io/WriteSomething/image/redis3.png)
 
 
-[返回首页](https://maxwell-l.github.io/WriteSomething)
+[返回首页](https://maxwell-blog.cn)

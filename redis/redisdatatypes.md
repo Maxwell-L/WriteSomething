@@ -132,7 +132,7 @@
   + 对于带有权重的任务，可以用 *score* 记录权重，还可以通过对 *score* 做分段实现多个权重条件。  
 
 
-[返回首页](https://maxwell-l.github.io/WriteSomething)
+[返回首页](https://maxwell-blog.cn)
     
 
 

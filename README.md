@@ -31,8 +31,8 @@
 * [Linux中的调度策略](https://maxwell-l.github.io/WriteSomething/linux/linuxsched)
 
 ### **Redis**
-* [Redis 五种常用数据类型](https://maxwell-l.github.io/WriteSomething/something/redisdatatypes)
-* [Redis 主从复制](https://maxwell-l.github.io/WriteSomething/something/redismasterslave)
+* [Redis 五种常用数据类型](https://maxwell-blog.cn/redis/redisdatatypes)
+* [Redis 主从复制](https://maxwell-blog.cn/redis/redismasterslave)
 
 ### **Spring**
 * [Spring 源码环境搭建](https://maxwell-l.github.io/WriteSomething/spring/springsrcenv)
