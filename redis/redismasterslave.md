@@ -19,7 +19,7 @@
 * **主从连接配置**：slave 配置文件 -> **slaveof** \<masterip\> \<masterport\>
 * **主从断开连接**：slave 客户端 -> **slaveof** no one  
 
-![图片加载失败](https://maxwell-l.github.io/WriteSomething/image/redis2.png)
+![图片加载失败](https://maxwell-blog.cn/image/redis2.png)
 
 
 #### **2、数据同步阶段**
@@ -58,7 +58,7 @@
     + 描述复制积压缓冲区中的指令字节位置
     + 比对 **master** 和 **slave** 的 *offset* 进行同步数据
 
-![图片加载失败](https://maxwell-l.github.io/WriteSomething/image/redis3.png)
+![图片加载失败](https://maxwell-blog.cn/image/redis3.png)
 
 
 [返回首页](https://maxwell-blog.cn)
