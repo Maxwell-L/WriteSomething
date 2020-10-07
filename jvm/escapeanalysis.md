@@ -23,7 +23,7 @@ public class EscapeAnalysisDemo {
 }
 ```
 **结果**    
-![图片加载失败](https://maxwell-l.github.io/WriteSomething/image/escapeanalysis1.png)  
+![图片加载失败](https://maxwell-blog.cn/image/escapeanalysis1.png)  
 
 
 * 关闭逃逸分析并开启垃圾回收打印
@@ -32,8 +32,8 @@ public class EscapeAnalysisDemo {
 -XX:+PrintGC
 ```
 **结果**  
-![图片加载失败](https://maxwell-l.github.io/WriteSomething/image/escapeanalysis2.png)  
+![图片加载失败](https://maxwell-blog.cn/image/escapeanalysis2.png)  
 
 
 
-[返回首页](https://maxwell-l.github.io/WriteSomething)
+[返回首页](https://maxwell-blog.cn)
