@@ -32,7 +32,7 @@
 
 * 以管理员身份运行 `Windows PowerShell`，进入 **Spring-5.0.0.RELEASE** 目录下，运行 `.\gradlew :spring-oxm:compileTestJava`，由于网络问题可能失败，多尝试几次即可成功。  
 
-    ![图片加载失败](https://maxwell-l.github.io/WriteSomething/image/springsrcenv4.png)
+    ![图片加载失败](https://maxwell-blog.cn/image/springsrcenv4.png)
 
 * 进入**IDEA**，配置 **GRADLE**，如图，设置 `gradle user home` 存放下载的包，IDEA会自动构建工程  
 
