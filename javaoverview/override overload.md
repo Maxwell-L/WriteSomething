@@ -15,9 +15,9 @@
     + 可以改变访问修饰符<br>
     + 可以声明新的或更广的异常
 
-![图片加载失败](http://maxwell-l.github.io/WriteSomething/image/over1.png)
+![图片加载失败](http://maxwell-blog.cn/image/over1.png)
 <br>
 <br>
-[返回首页](https://maxwell-l.github.io/WriteSomething)
+[返回首页](https://maxwell-blog.cn)
 
 

@@ -18,4 +18,4 @@
 * **标记接口**：没有任何方法和属性的接口，仅表示它的类属于一个特定的类型。
 
 
-[返回首页](https://maxwell-l.github.io/WriteSomething)
+[返回首页](https://maxwell-blog.cn/)

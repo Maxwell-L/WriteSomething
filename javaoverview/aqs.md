@@ -99,7 +99,9 @@ public final void acquire(int arg) {
 ```
 
 ### **ReentrantLock实现的同步器**
-![图片加载失败](https://maxwell-l.github.io/WriteSomething/image/aqs1.jpg)
+
+![图片加载失败](https://maxwell-blog.cn/image/aqs1.jpg)
+
 * **ReentrantLock** 的共享资源模式为独占，其静态内部抽象类**Sync**继承于**AQS**，基于此的公平锁和非公平锁继承了**Sync**，实现了各自抢占资源的方法。
 
 ``` java
@@ -199,4 +201,4 @@ static final class FairSync extends Sync {
 
 
 
-[返回首页](http://maxwell-l.github.io/WriteSomething)
+[返回首页](http://maxwell-blog.cn)

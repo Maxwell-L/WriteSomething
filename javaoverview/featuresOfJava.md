@@ -11,8 +11,8 @@
     + public：均可访问
 
 不同包中protected修饰的属性不能被实例访问，但可以被子类继承；default此时与private相同，public任何时候都可以被实例对象访问。<br>
-![图片加载失败](https://maxwell-l.github.io/WriteSomething/image/featureOne1.png)
-![图片加载失败](https://maxwell-l.github.io/WriteSomething/image/featureOne2.png)
+![图片加载失败](https://maxwell-blog.cn/image/featureOne1.png)
+![图片加载失败](https://maxwell-blog.cn/image/featureOne2.png)
 
 ### **继承**
 
@@ -27,7 +27,7 @@
     + 用final修饰的方法不能被重写<br>
     + 被final修饰的类中的属性不是final
 
-![图片加载失败](https://maxwell-l.github.io/WriteSomething/image/featureTwo1.png)
+![图片加载失败](https://maxwell-blog.cn/image/featureTwo1.png)
 
 * 若父类没有构造函数（此时Java会自动构造一个无参构造函数）或者定义了无参的构造函数，子类的任何构造函数在没有显式调用父类构造函数时会自动调用父类的无参构造函数。
 * 若父类仅有带参的构造函数，则Java不会自动构造无参构造函数，子类的构造函数必须显式调用父类构造函数，否则会报错。
@@ -79,4 +79,4 @@ Cat Eat
 
 
 
-[返回首页](https://maxwell-l.github.io/WriteSomething)
+[返回首页](https://maxwell-blog.cn)

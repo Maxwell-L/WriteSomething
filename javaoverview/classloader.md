@@ -9,7 +9,7 @@
     + 应用类加载器（App)
     + 用户自定义加载器（Plugin） 
 
-![图片加载失败](https://maxwell-l.github.io/WriteSomething/image/classloader.png)
+![图片加载失败](https://maxwell-blog.cn/image/classloader.png)
 
 ### **双亲委托模型**
 * 类加载器双亲委托
@@ -59,4 +59,4 @@ protected Class<?> loadClass(String name, boolean resolve)
 
 ```
   
-[返回首页](http://maxwell-l.github.io/WriteSomething)
+[返回首页](http://maxwell-blog.cn)
