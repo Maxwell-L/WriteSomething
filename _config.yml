@@ -28,10 +28,8 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://maxwell-blog.cn" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 github_username:  Maxwell-L
-categories: 
-  - Spring
-  - Redis
-  - DesignPattern
+categories: [Spring, Redis, DesignPattern]
+
 
 # Build settings
 theme: minima
