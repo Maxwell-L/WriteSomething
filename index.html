@@ -29,6 +29,18 @@
         <div class="trigger"><a class="page-link" href="/">目录</a></div>
       </nav></div>
 </header>
+<h1>测试</h1>
+<ul>
+  {% for category in site.categories%}
+  <li>
+    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+    <p>{{ post.excerpt }}</p>
+  </li>
+</ul>
+
+
+
+
 <main class="page-content" aria-label="Content">
       <div class="wrapper">
         <div class="home"><h1 class="page-heading">目录</h1><h3 id="java-基础"><strong>Java 基础</strong></h3>
