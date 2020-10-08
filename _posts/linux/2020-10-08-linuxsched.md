@@ -1,5 +1,9 @@
-## **Linux中的调度策略**
---------------------------
+---
+layout: post
+title: "Linux中的调度策略"
+date: 2020-10-08
+categories: Linux
+---
 
 ### **调度策略的定义**
 ``` c

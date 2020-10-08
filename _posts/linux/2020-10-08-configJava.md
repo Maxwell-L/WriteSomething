@@ -1,5 +1,9 @@
-## **Linux安装配置JDK**
--------------
+---
+layout: post
+title: "Linux安装配置JDK"
+date: 2020-10-08
+categories: Linux
+---
 
 ### 环境
 * CentOS 7.3
