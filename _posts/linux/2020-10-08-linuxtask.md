@@ -58,6 +58,4 @@ categories: Linux
   + **僵尸状态**：`state = TASK_DEAD` `exit_state = EXIT_ZOMBIE` 父进程关心子进程退出事件，子进程退出时发送`SIGCHLD`信号通知父进程并进入僵尸状态。
   + **死亡状态**：`state = TASK_DEAD` `exit_state = EXIT_DEAD` 父进程不关心子进程退出事件，子进程退出后自动消亡。
 
-![图片加载失败](https://maxwell-l.github.io/WriteSomething/image/taskstate.png)
-
-[返回首页](https://maxwell-l.github.io/WriteSomething)
+![图片加载失败](https://maxwell-blog.cn/image/taskstate.png)

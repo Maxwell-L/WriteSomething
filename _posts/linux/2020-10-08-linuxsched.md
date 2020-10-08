@@ -67,4 +67,3 @@ categories: Linux
     };
     ```
   
-[返回首页](https://maxwell-l.github.io/WriteSomething)
