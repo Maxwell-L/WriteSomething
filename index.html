@@ -40,7 +40,7 @@
 <main class="page-content" aria-label="Content">
       <div class="wrapper">
 
-      {% for category in page.categories %}
+      {% for category in site.categories %}
         <h1>{{ category }}</h1>
         <ul>
           {% for post in site.categories[category] %}
