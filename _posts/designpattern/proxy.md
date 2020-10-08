@@ -1,3 +1,10 @@
+---
+layout: post
+title: "代理模式"
+date: 2020-10-08
+categories: DesignPattern
+---
+
 ## **代理模式**
 ------
 
