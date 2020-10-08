@@ -1,5 +1,9 @@
-## **40 - 组合总和 II**
-----------------------
+---
+layout: post
+title: "40 - 组合总和 II"
+date: 2020-10-08
+categories: LeetCode
+---
 
 ### **题目描述**
 给定一个数组 candidates 和一个目标数 target ，找出 candidates 中所有可以使数字和为 target 的组合。
@@ -64,4 +68,4 @@ class Solution {
 ```
 
 
-[返回目录](https://maxwell-l.github.io/WriteSomething/something/leetcode)
+[返回目录](https://maxwell-blog.cn/leetcode/2020/10/08/leetcode.html)

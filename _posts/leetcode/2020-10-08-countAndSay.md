@@ -1,5 +1,9 @@
-## **38 - 外观数列**
------------------------------------
+---
+layout: post
+title: "38 - 外观数列"
+date: 2020-10-08
+categories: LeetCode
+---
 
 ### **题目描述**
 给定一个正整数 n（1 ≤ n ≤ 30），输出外观数列的第 n 项。
@@ -75,4 +79,4 @@ class Solution {
 ```
 
 
-[返回目录](https://maxwell-l.github.io/WriteSomething/something/leetcode)
+[返回目录](https://maxwell-blog.cn/leetcode/2020/10/08/leetcode.html)

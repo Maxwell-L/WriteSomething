@@ -1,5 +1,9 @@
-## **41 - 缺失的第一个整数**
---------------------------
+---
+layout: post
+title: "41 - 缺失的第一个整数"
+date: 2020-10-08
+categories: LeetCode
+---
 
 ### **题目描述**
 给你一个未排序的整数数组，请你找出其中没有出现的最小的正整数。
@@ -59,4 +63,4 @@ class Solution {
 
 
 
-[返回目录](https://maxwell-l.github.io/WriteSomething/something/leetcode)
+[返回目录](https://maxwell-blog.cn/leetcode/2020/10/08/leetcode.html)

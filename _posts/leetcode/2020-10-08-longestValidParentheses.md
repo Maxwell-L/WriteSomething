@@ -1,5 +1,10 @@
-## **32 - 最长有效括号**
------------------------
+---
+layout: post
+title: "32 - 最长有效括号"
+date: 2020-10-08
+categories: LeetCode
+---
+
 
 ### **题目描述**
 给定一个只包含 '(' 和 ')' 的字符串，找出最长的包含有效括号的子串的长度。
@@ -52,4 +57,4 @@ class Solution {
 
 
 
-[返回目录](https://maxwell-l.github.io/WriteSomething/something/leetcode)
+[返回目录](https://maxwell-blog.cn/leetcode/2020/10/08/leetcode.html)

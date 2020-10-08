@@ -1,5 +1,9 @@
-## **181 - 超过经理收入的员工**
-----------------------------
+---
+layout: post
+title: "181 - 超过经理收入的员工"
+date: 2020-10-08
+categories: LeetCode
+---
 
 ### **题目描述**
 Employee 表包含所有员工，他们的经理也属于员工。每个员工都有一个 Id，此外还有一列对应员工的经理的 Id。
@@ -35,4 +39,4 @@ WHERE t1.Salary > t2.Salary;
 
 
 
-[返回目录](https://maxwell-l.github.io/WriteSomething/something/leetcode)
+[返回目录](https://maxwell-blog.cn/leetcode/2020/10/08/leetcode.html)

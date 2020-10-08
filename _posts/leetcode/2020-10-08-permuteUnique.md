@@ -1,5 +1,9 @@
-## **47 - 全排列 II**
-----------------------
+---
+layout: post
+title: "47 - 全排列 II"
+date: 2020-10-08
+categories: LeetCode
+---
 
 ### **题目描述**
 给定一个可包含重复数字的序列，返回所有不重复的全排列。
@@ -56,4 +60,4 @@ class Solution {
 ```
 
 
-[返回目录](https://maxwell-l.github.io/WriteSomething/something/leetcode)
+[返回目录](https://maxwell-blog.cn/leetcode/2020/10/08/leetcode.html)

@@ -1,5 +1,9 @@
-## **2 - 两数相加**
-------------------
+---
+layout: post
+title: "2 - 两数相加"
+date: 2020-10-08
+categories: LeetCode
+---
 
 ### **题目描述**
 给出两个 非空 的链表用来表示两个非负的整数。其中，它们各自的位数是按照 逆序 的方式存储的，并且它们的每个节点只能存储 一位 数字。
@@ -60,4 +64,4 @@ class Solution {
 }
 ```
 
-[返回目录](https://maxwell-l.github.io/WriteSomething/something/leetcode)
+[返回目录](https://maxwell-blog.cn/leetcode/2020/10/08/leetcode.html)

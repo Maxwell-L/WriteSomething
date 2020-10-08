@@ -1,5 +1,10 @@
-## **184 - 部门工资最高的员工**
----------------------------
+---
+layout: post
+title: "184 - 部门工资最高的员工"
+date: 2020-10-08
+categories: LeetCode
+---
+
 
 ### **题目描述**
 `Employee` 表包含所有员工信息，每个员工有其对应的 Id, salary 和 department Id。
@@ -55,4 +60,4 @@ IN
 ```
 
 
-[返回目录](https://maxwell-l.github.io/WriteSomething/something/leetcode)
+[返回目录](https://maxwell-blog.cn/leetcode/2020/10/08/leetcode.html)

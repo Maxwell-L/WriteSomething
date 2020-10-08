@@ -1,5 +1,9 @@
-## **26 - 删除排序数组中的重复项**
-------------------------------
+---
+layout: post
+title: "26 - 删除排序数组中的重复项"
+date: 2020-10-08
+categories: LeetCode
+---
 
 ### **题目描述**
 给定一个排序数组，你需要在 原地 删除重复出现的元素，使得每个元素只出现一次，返回移除后数组的新长度。
@@ -72,4 +76,4 @@ class Solution {
 
 
 
-[返回目录](https://maxwell-l.github.io/WriteSomething/something/leetcode)
+[返回目录](https://maxwell-blog.cn/leetcode/2020/10/08/leetcode.html)

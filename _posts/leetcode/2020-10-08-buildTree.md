@@ -1,5 +1,9 @@
-## **105 - 从前序与中序遍历序列构造二叉树**
----------------------
+---
+layout: post
+title: "105 - 从前序与中序遍历序列构造二叉树"
+date: 2020-10-08
+categories: LeetCode
+---
 
 ### **题目描述**
 根据一棵树的前序遍历与中序遍历构造二叉树。
@@ -63,4 +67,4 @@ class Solution {
 }
 ```
 
-[返回目录](https://maxwell-l.github.io/WriteSomething/something/leetcode)
+[返回目录](https://maxwell-blog.cn/leetcode/2020/10/08/leetcode.html)

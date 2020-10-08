@@ -1,5 +1,9 @@
-## **37 - 解数独**
-----------------------
+---
+layout: post
+title: "37 - 解数独"
+date: 2020-10-08
+categories: LeetCode
+---
 
 ### **题目描述**
 编写一个程序，通过已填充的空格来解决数独问题。
@@ -13,11 +17,11 @@
 
 空白格用 '.' 表示。
 
-![图片加载失败](https://maxwell-l.github.io/WriteSomething/image/solvesudoku1.png)
+![图片加载失败](https://maxwell-blog.cn/image/solvesudoku1.png)
 
 一个数独。
 
-![图片加载失败](https://maxwell-l.github.io/WriteSomething/image/solvesudoku2.png)
+![图片加载失败](https://maxwell-blog.cn/image/solvesudoku2.png)
 
 答案被标成红色。
 
@@ -93,4 +97,4 @@ class Solution {
 
 
 
-[返回目录](https://maxwell-l.github.io/WriteSomething/something/leetcode)
+[返回目录](https://maxwell-blog.cn/leetcode/2020/10/08/leetcode.html)

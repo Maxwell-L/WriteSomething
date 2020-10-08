@@ -1,5 +1,9 @@
-## **260 - 只出现一次的数字 III**
----------------------
+---
+layout: post
+title: "260 - 只出现一次的数字 III"
+date: 2020-10-08
+categories: LeetCode
+---
 
 ### **题目描述**
 给定一个整数数组 nums，其中恰好有两个元素只出现一次，其余所有元素均出现两次。 找出只出现一次的那两个元素。
@@ -41,4 +45,4 @@ class Solution {
 }
 ```
 
-[返回目录](https://maxwell-l.github.io/WriteSomething/something/leetcode)
+[返回目录](https://maxwell-blog.cn/leetcode/2020/10/08/leetcode.html)

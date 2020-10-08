@@ -1,5 +1,9 @@
-## **23 - 合并K个排序链表**
----------------------------
+---
+layout: post
+title: "23 - 合并K个排序链表"
+date: 2020-10-08
+categories: LeetCode
+---
 
 ### **题目描述**
 合并 k 个排序链表，返回合并后的排序链表。请分析和描述算法的复杂度。
@@ -52,4 +56,4 @@ class Solution {
 
 
 
-[返回目录](https://maxwell-l.github.io/WriteSomething/something/leetcode)
+[返回目录](https://maxwell-blog.cn/leetcode/2020/10/08/leetcode.html)

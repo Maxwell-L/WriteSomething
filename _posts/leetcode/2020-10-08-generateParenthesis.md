@@ -1,5 +1,10 @@
-## **22 - 括号生成**
---------------------
+---
+layout: post
+title: "22 - 括号生成"
+date: 2020-10-08
+categories: LeetCode
+---
+
 
 ### **题目描述**
 数字 n 代表生成括号的对数，请你设计一个函数，用于能够生成所有可能的并且 有效的 括号组合。
@@ -54,4 +59,4 @@ class Solution {
 
 
 
-[返回目录](https://maxwell-l.github.io/WriteSomething/something/leetcode)
+[返回目录](https://maxwell-blog.cn/leetcode/2020/10/08/leetcode.html)

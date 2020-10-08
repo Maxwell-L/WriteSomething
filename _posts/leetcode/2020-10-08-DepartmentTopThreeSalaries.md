@@ -1,5 +1,9 @@
-## **185 - 部门工资前三高的所有员工**
----------------------------
+---
+layout: post
+title: "185 - 部门工资前三高的所有员工"
+date: 2020-10-08
+categories: LeetCode
+---
 
 ### **题目描述**
 `Employee` 表包含所有员工信息，每个员工有其对应的工号 `Id`，姓名 `Name`，工资 `Salary` 和部门编号 `DepartmentId` 。
@@ -60,4 +64,4 @@ WHERE e.Ranking <= 3;
 ```
 
 
-[返回目录](https://maxwell-l.github.io/WriteSomething/something/leetcode)
+[返回目录](https://maxwell-blog.cn/leetcode/2020/10/08/leetcode.html)

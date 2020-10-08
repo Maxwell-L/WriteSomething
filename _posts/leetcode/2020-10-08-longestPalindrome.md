@@ -1,5 +1,9 @@
-## **5 - 最长回文子串**
-----------------------
+---
+layout: post
+title: "5 - 最长回文子串"
+date: 2020-10-08
+categories: LeetCode
+---
 
 ### **题目描述**
 给定一个字符串 s，找到 s 中最长的回文子串。你可以假设 s 的最大长度为 1000。
@@ -47,4 +51,4 @@ class Solution {
 ```
 
 
-[返回目录](https://maxwell-l.github.io/WriteSomething/something/leetcode)
+[返回目录](https://maxwell-blog.cn/leetcode/2020/10/08/leetcode.html)

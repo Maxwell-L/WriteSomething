@@ -1,5 +1,9 @@
-## **35 - 搜索插入位置**
------------------
+---
+layout: post
+title: "35 - 搜索插入位置"
+date: 2020-10-08
+categories: LeetCode
+---
 
 ### **题目描述**
 给定一个排序数组和一个目标值，在数组中找到目标值，并返回其索引。如果目标值不存在于数组中，返回它将会被按顺序插入的位置。
@@ -47,4 +51,4 @@ class Solution {
 ```
 
 
-[返回目录](https://maxwell-l.github.io/WriteSomething/something/leetcode)
+[返回目录](https://maxwell-blog.cn/leetcode/2020/10/08/leetcode.html)

@@ -1,5 +1,9 @@
-## **144 - 二叉树的前序遍历**
--------------------------
+---
+layout: post
+title: "144 - 二叉树的前序遍历"
+date: 2020-10-08
+categories: LeetCode
+---
 
 ### **题目描述** 
 给定一个二叉树，返回它的*前序*遍历。
@@ -53,4 +57,4 @@ class Solution {
 ```
 
 
-[返回目录](https://maxwell-l.github.io/WriteSomething/something/leetcode)
+[返回目录](https://maxwell-blog.cn/leetcode/2020/10/08/leetcode.html)

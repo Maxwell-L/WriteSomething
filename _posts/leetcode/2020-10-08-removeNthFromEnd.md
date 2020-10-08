@@ -1,5 +1,9 @@
-## **19 - 删除链表的倒数第N个节点**
-----------------------------
+---
+layout: post
+title: "19 - 删除链表的倒数第N个节点"
+date: 2020-10-08
+categories: LeetCode
+---
 
 ### **题目描述**
 给定一个链表，删除链表的倒数第 n 个节点，并且返回链表的头结点。
@@ -50,4 +54,4 @@ class Solution {
 ```
 
 
-[返回目录](https://maxwell-l.github.io/WriteSomething/something/leetcode)
+[返回目录](https://maxwell-blog.cn/leetcode/2020/10/08/leetcode.html)

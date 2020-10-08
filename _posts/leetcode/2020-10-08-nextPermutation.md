@@ -1,5 +1,9 @@
-## **31 - 下一个排列**
-----------------
+---
+layout: post
+title: "31 - 下一个排列"
+date: 2020-10-08
+categories: LeetCode
+---
 
 ### **题目描述**
 实现获取下一个排列的函数，算法需要将给定数字序列重新排列成字典序中下一个更大的排列。
@@ -55,4 +59,4 @@ class Solution {
 
 
 
-[返回目录](https://maxwell-l.github.io/WriteSomething/something/leetcode)
+[返回目录](https://maxwell-blog.cn/leetcode/2020/10/08/leetcode.html)

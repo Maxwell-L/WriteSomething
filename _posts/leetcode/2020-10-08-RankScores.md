@@ -1,5 +1,9 @@
-## **178 - 分数排名**
----------------------------
+---
+layout: post
+title: "178 - 分数排名"
+date: 2020-10-08
+categories: LeetCode
+---
 
 ### **题目描述**
 编写一个 SQL 查询来实现分数排名。
@@ -43,4 +47,4 @@ FROM Scores;
 ```
 
 
-[返回目录](https://maxwell-l.github.io/WriteSomething/something/leetcode)
+[返回目录](https://maxwell-blog.cn/leetcode/2020/10/08/leetcode.html)

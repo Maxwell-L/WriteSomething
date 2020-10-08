@@ -1,5 +1,9 @@
-## **36 - 有效的数独**
-----------------------
+---
+layout: post
+title: "36 - 有效的数独"
+date: 2020-10-08
+categories: LeetCode
+---
 
 ### **题目描述**
 判断一个 9x9 的数独是否有效。只需要根据以下规则，验证已经填入的数字是否有效即可。
@@ -8,7 +12,7 @@
 数字 1-9 在每一列只能出现一次。
 数字 1-9 在每一个以粗实线分隔的 3x3 宫内只能出现一次。
 
-![图片加载失败](https://maxwell-l.github.io/WriteSomething/image/isValidSudoku.png)
+![图片加载失败](https://maxwell-blog.cn/image/isValidSudoku.png)
 
 上图是一个部分填充的有效的数独。
 
@@ -93,4 +97,4 @@ class Solution {
 
 
 
-[返回目录](https://maxwell-l.github.io/WriteSomething/something/leetcode)
+[返回目录](https://maxwell-blog.cn/leetcode/2020/10/08/leetcode.html)

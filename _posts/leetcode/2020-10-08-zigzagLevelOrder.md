@@ -1,5 +1,9 @@
-## **103 - 二叉树的锯齿形层次遍历**
----------------------
+---
+layout: post
+title: "103 - 二叉树的锯齿形层次遍历"
+date: 2020-10-08
+categories: LeetCode
+---
 
 ### **题目描述**
 给定一个二叉树，返回其节点值的锯齿形层次遍历。（即先从左往右，再从右往左进行下一层遍历，以此类推，层与层之间交替进行）。
@@ -83,4 +87,4 @@ class Solution {
 }
 ```
 
-[返回目录](https://maxwell-l.github.io/WriteSomething/something/leetcode)
+[返回目录](https://maxwell-blog.cn/leetcode/2020/10/08/leetcode.html)

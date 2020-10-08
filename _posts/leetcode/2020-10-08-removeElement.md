@@ -1,5 +1,9 @@
-## **27 - 移除元素**
---------------------
+---
+layout: post
+title: "27 - 移除元素"
+date: 2020-10-08
+categories: LeetCode
+---
 
 ### **题目描述**
 给你一个数组 nums 和一个值 val，你需要 原地 移除所有数值等于 val 的元素，并返回移除后数组的新长度。
@@ -69,4 +73,4 @@ class Solution {
 
 
 
-[返回目录](https://maxwell-l.github.io/WriteSomething/something/leetcode)
+[返回目录](https://maxwell-blog.cn/leetcode/2020/10/08/leetcode.html)

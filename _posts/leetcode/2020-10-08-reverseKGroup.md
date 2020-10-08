@@ -1,5 +1,9 @@
-## **25 - K 个一组翻转链表**
-----------------------------
+---
+layout: post
+title: "25 - K 个一组翻转链表"
+date: 2020-10-08
+categories: LeetCode
+---
 
 ### **题目描述**
 给你一个链表，每 k 个节点一组进行翻转，请你返回翻转后的链表。
@@ -77,4 +81,4 @@ class Solution {
 
 
 
-[返回目录](https://maxwell-l.github.io/WriteSomething/something/leetcode)
+[返回目录](https://maxwell-blog.cn/leetcode/2020/10/08/leetcode.html)

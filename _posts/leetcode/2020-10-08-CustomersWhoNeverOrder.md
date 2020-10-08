@@ -1,5 +1,10 @@
-## **183 - 从不订购的客户**
----------------------------
+---
+layout: post
+title: "183 - 从不订购的客户"
+date: 2020-10-08
+categories: LeetCode
+---
+
 
 ### **题目描述**
 某网站包含两个表，Customers 表和 Orders 表。编写一个 SQL 查询，找出所有从不订购任何东西的客户。
@@ -48,4 +53,4 @@ WHERE Id NOT IN
 ```
 
 
-[返回目录](https://maxwell-l.github.io/WriteSomething/something/leetcode)
+[返回目录](https://maxwell-blog.cn/leetcode/2020/10/08/leetcode.html)

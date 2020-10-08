@@ -1,5 +1,10 @@
-## **13 - 罗马数字转整数**
---------------------------
+---
+layout: post
+title: "13 - 罗马数字转整数"
+date: 2020-10-08
+categories: LeetCode
+---
+
 
 ### **题目描述**
 罗马数字包含以下七种字符： I， V， X， L，C，D 和 M。
@@ -79,4 +84,4 @@ class Solution {
 ```
 
 
-[返回目录](https://maxwell-l.github.io/WriteSomething/something/leetcode)
+[返回目录](https://maxwell-blog.cn/leetcode/2020/10/08/leetcode.html)

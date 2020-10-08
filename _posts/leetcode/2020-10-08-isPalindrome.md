@@ -1,5 +1,9 @@
-## **9 - 回文数**
----------------
+---
+layout: post
+title: "9 - 回文数"
+date: 2020-10-08
+categories: LeetCode
+---
 
 ### **题目描述**
 判断一个整数是否是回文数。回文数是指正序（从左向右）和倒序（从右向左）读都是一样的整数。
@@ -48,4 +52,4 @@ class Solution {
 ```
 
 
-[返回目录](https://maxwell-l.github.io/WriteSomething/something/leetcode)
+[返回目录](https://maxwell-blog.cn/leetcode/2020/10/08/leetcode.html)

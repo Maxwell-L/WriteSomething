@@ -1,5 +1,10 @@
-## **49 - 字母异位词分组**
----------------------
+---
+layout: post
+title: "49 - 字母异位词分组"
+date: 2020-10-08
+categories: LeetCode
+---
+
 
 ### **题目描述**
 给定一个字符串数组，将字母异位词组合在一起。字母异位词指字母相同，但排列不同的字符串。
@@ -47,4 +52,4 @@ class Solution {
 }
 ```
 
-[返回目录](https://maxwell-l.github.io/WriteSomething/something/leetcode)
+[返回目录](https://maxwell-blog.cn/leetcode/2020/10/08/leetcode.html)

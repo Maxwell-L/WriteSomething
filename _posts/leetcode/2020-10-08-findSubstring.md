@@ -1,5 +1,10 @@
-## **30 - 串联所有单词的子串**
-----------------------------
+---
+layout: post
+title: "30 - 串联所有单词的子串"
+date: 2020-10-08
+categories: LeetCode
+---
+
 
 ### **题目描述**
 给定一个字符串 s 和一些长度相同的单词 words。找出 s 中恰好可以由 words 中所有单词串联形成的子串的起始位置。
@@ -117,4 +122,4 @@ class Solution {
 
 
 
-[返回目录](https://maxwell-l.github.io/WriteSomething/something/leetcode)
+[返回目录](https://maxwell-blog.cn/leetcode/2020/10/08/leetcode.html)

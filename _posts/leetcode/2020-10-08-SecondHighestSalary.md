@@ -1,5 +1,9 @@
-## **176 - 第二高的薪水**
----------------------------
+---
+layout: post
+title: "176 - 第二高的薪水"
+date: 2020-10-08
+categories: LeetCode
+---
 
 ### **题目描述**
 SQL架构  
@@ -42,4 +46,4 @@ AS SecondHighestSalary;
 ```
 
 
-[返回目录](https://maxwell-l.github.io/WriteSomething/something/leetcode)
+[返回目录](https://maxwell-blog.cn/leetcode/2020/10/08/leetcode.html)

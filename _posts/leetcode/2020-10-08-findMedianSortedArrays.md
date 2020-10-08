@@ -1,5 +1,9 @@
-## **4 - 寻找两个有序数组的中位数**
------------------------------------
+---
+layout: post
+title: "4 - 寻找两个有序数组的中位数"
+date: 2020-10-08
+categories: LeetCode
+---
 
 ### **题目描述**
 给定两个大小为 m 和 n 的有序数组 nums1 和 nums2。
@@ -62,4 +66,4 @@ class Solution {
 ```
 
 
-[返回目录](https://maxwell-l.github.io/WriteSomething/something/leetcode)
+[返回目录](https://maxwell-blog.cn/leetcode/2020/10/08/leetcode.html)

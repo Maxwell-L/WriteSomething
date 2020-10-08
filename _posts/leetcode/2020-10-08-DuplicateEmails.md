@@ -1,5 +1,10 @@
-## **182 - 查找重复的电子邮箱**
----------------------------
+---
+layout: post
+title: "182 - 查找重复的电子邮箱"
+date: 2020-10-08
+categories: LeetCode
+---
+
 
 ### **题目描述**
 编写一个 SQL 查询，查找 Person 表中所有重复的电子邮箱。
@@ -37,4 +42,4 @@ HAVING count(Email) > 1;
 ```
 
 
-[返回目录](https://maxwell-l.github.io/WriteSomething/something/leetcode)
+[返回目录](https://maxwell-blog.cn/leetcode/2020/10/08/leetcode.html)

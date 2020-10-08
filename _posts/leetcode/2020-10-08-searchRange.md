@@ -1,5 +1,9 @@
-## **34 - 在排序数组中查找元素的第一个和最后一个位置**
---------------------------
+---
+layout: post
+title: "34 - 在排序数组中查找元素的第一个和最后一个位置"
+date: 2020-10-08
+categories: LeetCode
+---
 
 ### **题目描述**
 给定一个按照升序排列的整数数组 nums，和一个目标值 target。找出给定目标值在数组中的开始位置和结束位置。
@@ -60,4 +64,4 @@ class Solution {
 
 
 
-[返回目录](https://maxwell-l.github.io/WriteSomething/something/leetcode)
+[返回目录](https://maxwell-blog.cn/leetcode/2020/10/08/leetcode.html)

@@ -1,5 +1,9 @@
-## **14 - 最长公共前缀**
---------------------------
+---
+layout: post
+title: "14 - 最长公共前缀"
+date: 2020-10-08
+categories: LeetCode
+---
 
 ### **题目描述**
 编写一个函数来查找字符串数组中的最长公共前缀。
@@ -62,4 +66,4 @@ class Solution {
 ```
 
 
-[返回目录](https://maxwell-l.github.io/WriteSomething/something/leetcode)
+[返回目录](https://maxwell-blog.cn/leetcode/2020/10/08/leetcode.html)

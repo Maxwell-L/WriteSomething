@@ -1,5 +1,9 @@
-## **24 - 两两交换链表中的节点**
---------------------------------
+---
+layout: post
+title: "24 - 两两交换链表中的节点"
+date: 2020-10-08
+categories: LeetCode
+---
 
 ### **题目描述**
 给定一个链表，两两交换其中相邻的节点，并返回交换后的链表。
@@ -49,4 +53,4 @@ class Solution {
 
 
 
-[返回目录](https://maxwell-l.github.io/WriteSomething/something/leetcode)
+[返回目录](https://maxwell-blog.cn/leetcode/2020/10/08/leetcode.html)

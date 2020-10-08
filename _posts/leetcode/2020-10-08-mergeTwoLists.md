@@ -1,5 +1,9 @@
-## **21 - 合并两个有序链表**
---------------------------
+---
+layout: post
+title: "21 - 合并两个有序链表"
+date: 2020-10-08
+categories: LeetCode
+---
 
 ### **题目描述**
 将两个升序链表合并为一个新的升序链表并返回。新链表是通过拼接给定的两个链表的所有节点组成的。 
@@ -45,4 +49,4 @@ class Solution {
 ```
 
 
-[返回目录](https://maxwell-l.github.io/WriteSomething/something/leetcode)
+[返回目录](https://maxwell-blog.cn/leetcode/2020/10/08/leetcode.html)
