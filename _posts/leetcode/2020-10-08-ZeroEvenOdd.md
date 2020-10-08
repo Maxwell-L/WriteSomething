@@ -1,5 +1,9 @@
-## **1116 - 打印零与奇偶数**
----------------------
+---
+layout: post
+title: "1116 - 打印零与奇偶数"
+date: 2020-10-08
+categories: LeetCode
+---
 
 ### **题目描述**
 假设有这么一个类：
@@ -79,4 +83,4 @@ class ZeroEvenOdd {
 }
 ```
 
-[返回目录](https://maxwell-l.github.io/WriteSomething/something/leetcode)
+[返回](https://maxwell-blog.cn/leetcode/2020/10/08/leetcode.html)
