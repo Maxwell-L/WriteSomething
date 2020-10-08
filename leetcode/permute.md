@@ -1,0 +1,58 @@
+## **46 - 全排列**
+----------------------
+
+### **题目描述**
+给定一个 没有重复 数字的序列，返回其所有可能的全排列。
+
+示例:
+
+输入:   
+[1,2,3]  
+输出:  
+[
+  [1,2,3],
+  [1,3,2],
+  [2,1,3],
+  [2,3,1],
+  [3,1,2],
+  [3,2,1]
+]
+
+
+链接：[https://leetcode-cn.com/problems/permutations](https://leetcode-cn.com/problems/permutations)
+
+
+
+
+### **题解**
+``` java
+class Solution {
+    public List<List<Integer>> permute(int[] nums) {
+        List<List<Integer>> result = new ArrayList<>();
+        if(nums != null && nums.length != 0) {
+            int[] flag = new int[nums.length];
+            help(result, new ArrayList<Integer>(), nums, flag);
+        }
+        return result;
+    }
+
+    private void help(List<List<Integer>> result, List<Integer> temp, int[] nums, int[] flag) {
+        if(temp.size() == nums.length) {
+            result.add(temp);
+            return;
+        }
+        for(int i = 0; i < nums.length; i++) {
+            if(flag[i] == 0) {
+                flag[i] = 1;
+                List<Integer> newTemp = new ArrayList<>(temp);
+                newTemp.add(nums[i]);
+                help(result, newTemp, nums, flag);
+                flag[i] = 0;
+            }
+        }
+    }
+}
+```
+
+
+[返回目录](https://maxwell-l.github.io/WriteSomething/something/leetcode)
