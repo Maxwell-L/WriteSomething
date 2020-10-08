@@ -30,13 +30,16 @@
       </nav></div>
 </header>
 <h1>测试</h1>
-<ul>
-  {% for category in site.categories%}
-  <li>
-    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-    <p>{{ post.excerpt }}</p>
-  </li>
-</ul>
+<!-- <ul> -->
+  {% for category in site.categories %}
+  <h1>{{ category }}</h1>
+  <ul>
+    {% for post in site.categories[category] %}
+      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+{% endfor %}
+<!-- </ul> -->
 
 
 

@@ -54,7 +54,10 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 
-categories: [Spring, Redis, DesignPattern]
+categories: 
+  - Spring
+  - Redis
+  - DesignPattern
 
 
   
