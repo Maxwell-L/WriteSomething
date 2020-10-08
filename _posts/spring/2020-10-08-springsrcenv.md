@@ -2,7 +2,7 @@
 layout: post
 title: "Spring 源码环境搭建"
 date: 2020-10-08
-categories: spring
+categories: Spring
 ---
 
 
