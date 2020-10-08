@@ -1,5 +1,9 @@
-## **Spring 事务抽象**
-------------------------
+---
+layout: post
+title: "Spring 事务抽象"
+date: 2020-10-08
+categories: Spring
+---
 
 ### **Spring 事务传播行为**
 * [官方文档](https://docs.spring.io/spring/docs/5.2.5.RELEASE/spring-framework-reference/data-access.html#tx-propagation) 中介绍了三种传播行为：`PROPAGATION_REQUIRED` `PROPAGATION_REQUIRES_NEW` `PROPAGATION_NESTED`，实际上**Spring**的事务传播行为共有七种，**Spring**源码 `TransactionDefinition.java` 中描述了这七种传播行为。
@@ -197,6 +201,3 @@
 	```
 * 由上可知，**Spring**事务默认**传播行为**为`PROPAGATION_REQUIRED`，默认**隔离级别**为使用底层数据库的隔离级别。
 
-
-
-[返回首页](https://maxwell-l.github.io/WriteSomething)

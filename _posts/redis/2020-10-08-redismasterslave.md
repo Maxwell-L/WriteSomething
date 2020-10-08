@@ -1,5 +1,9 @@
-## **Redis - 主从复制**
------------------------
+---
+layout: post
+title: "Redis 主从复制"
+date: 2020-10-08
+categories: Redis
+---
 
 ### **一、主从复制简介** 
 * **主从复制**目的：实现**高可用**
@@ -60,5 +64,3 @@
 
 ![图片加载失败](https://maxwell-blog.cn/image/redis3.png)
 
-
-[返回首页](https://maxwell-blog.cn)
