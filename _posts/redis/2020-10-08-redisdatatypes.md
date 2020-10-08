@@ -1,5 +1,10 @@
-## **Redis 五种常用数据类型**
------------
+---
+layout: post
+title: "Redis 五种常用数据类型"
+date: 2020-10-08
+categories: Redis
+---
+
 
 * `Redis`中以`key-value`的结构存储数据，其中`key`都是以`string`类型存储，一般讨论数据类型都是指的`value`的类型。[官方文档](https://redis.io/topics/data-types)
 
@@ -145,7 +150,6 @@
   2. 对于带有权重的任务，可以用 *score* 记录权重，还可以通过对 *score* 做分段实现多个权重条件。  
 
 
-[返回首页](https://maxwell-blog.cn)
 
 
 
