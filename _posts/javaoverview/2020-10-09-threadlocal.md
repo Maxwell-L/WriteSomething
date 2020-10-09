@@ -1,5 +1,9 @@
-## **ThreadLocal源码阅读**
-------
+---
+layout: post
+title: "ThreadLocal源码阅读"
+date: 2020-10-09
+categories: Java
+---
 
 * **ThreadLocal** 提供了线程独有的局部变量，每个线程都可以通过 `set` 和 `get` 来修改或获取且不会和其它线程的操作产生冲突，实现线程间的数据隔离。
 
@@ -198,4 +202,3 @@ private void remove(ThreadLocal<?> key) {
 * **内存泄漏** 发生的原因是 **ThreadLocal** 不再使用时，栈空间中的 **ThreadLocalReference** 不再指向 **ThreadLocal** 对象，由于`key`中 **ThreadLocal** 对象的引用为虚引用，在GC时会将 **ThreadLcoal** 对象回收。但由于线程仍在运行，其指向的**ThreadLocalMap** 中 **Entry** 的 `value` 仍以强引用方式指向堆空间中的 **Value** 数据，使得这部分已经失效的数据在堆空间中无法被回收
 * 为了避免出现**内存泄漏**的发生，应该在 **ThreadLocal** 不再使用时调用 *remove()* 方法清除数据，*remove()* 方法中会将`key`值的引用设置为`null`，并且将`key`值为`null`的 **Entry** 的`value`引用设置为`null`
 
-[返回首页](https://maxwell-blog.cn)

@@ -1,5 +1,10 @@
-## **类加载器 & 双亲委托模型**
----------------------------------
+---
+layout: post
+title: "类加载器 & 双亲委托模型"
+date: 2020-10-09
+categories: Java
+---
+
 
 ### **类加载器 - ClassLoader**
 * 负责查找、加载、校验字节码的应用程序（java.lang.ClassLoader)
@@ -59,4 +64,3 @@ protected Class<?> loadClass(String name, boolean resolve)
 
 ```
   
-[返回首页](http://maxwell-blog.cn)

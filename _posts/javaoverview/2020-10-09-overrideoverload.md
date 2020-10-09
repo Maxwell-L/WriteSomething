@@ -1,5 +1,10 @@
-## **Override & Overload**
-----------------------------
+---
+layout: post
+title: "Override 和 Overload 的区别"
+date: 2020-10-09
+categories: Java
+---
+
 
 ### **Override - 重写**
 * 指子类重写父类的方法，是父类和子类间一种多态的体现
@@ -16,8 +21,8 @@
     + 可以声明新的或更广的异常
 
 ![图片加载失败](http://maxwell-blog.cn/image/over1.png)
-<br>
-<br>
-[返回首页](https://maxwell-blog.cn)
+
+
+
 
 

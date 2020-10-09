@@ -1,5 +1,10 @@
-## **封装 / 继承 / 多态**
---------------------------
+---
+layout: post
+title: "Java中的封装 / 继承 / 多态"
+date: 2020-10-09
+categories: Java
+---
+
 
 ### **封装**
 
@@ -79,4 +84,3 @@ Cat Eat
 
 
 
-[返回首页](https://maxwell-blog.cn)

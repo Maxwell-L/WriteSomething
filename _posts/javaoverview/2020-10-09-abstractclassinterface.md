@@ -1,5 +1,10 @@
-## **abstract class / interface**
-----------------------------------
+---
+layout: post
+title: "Abstract class 和 Interface 的区别"
+date: 2020-10-09
+categories: Java
+---
+
 ### **abstract class - 抽象类**
 * 抽象类不能实例化，其余部分与普通类一致，可以拥有成员变量、成员方法、构造方法等。
 * 由于抽象类不能被实例化，故只有其被继承时才能使用。
@@ -18,4 +23,3 @@
 * **标记接口**：没有任何方法和属性的接口，仅表示它的类属于一个特定的类型。
 
 
-[返回首页](https://maxwell-blog.cn/)

@@ -1,5 +1,10 @@
-## **hashcode & equals**
------------------------------
+---
+layout: post
+title: "hashcode 和 equals 方法同时重写原理"
+date: 2020-10-09
+categories: Java
+---
+
 
 * HashMap、HashSet中判断两个Key值是否相等时先判断两者的hashcode是否一样，若不同则判定两者不同；若相同，则再通过equals方法判断两者是否相同，若仍相同则判定两个Key值是同一个，否则不是同一个。故一般而言，hashcode和equals方法需要同时重写，否则在容器中应用时可能出错。
 
@@ -55,4 +60,4 @@ public class Help {
 ```
 * 运行所示代码可以看到HashMap中元素有3个，可以推测h1和h4被判定为同一个Key值；注释掉重写的hashcode方法，运行结果为4个，说明当hashcode值不同时，Key值不同；保留hashcode方法，注释掉equals方法，运行结果也为4个，说明即使hashcode值相同，Key值是否相同也会再通过equals方法来判断。  
 <br>
-[返回首页](https://maxwell-blog.cn)
+
