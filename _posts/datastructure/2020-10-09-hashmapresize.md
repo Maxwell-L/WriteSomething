@@ -1,5 +1,10 @@
-## **HashMap扩容机制（JDK1.8）**
----------------------------------
+---
+layout: post
+title: "HashMap扩容机制（JDK1.8）"
+date: 2020-10-09
+categories: DataStructure
+---
+
 ### **源码解析**
 ``` java
 final Node<K,V>[] resize() {
@@ -103,5 +108,3 @@ final Node<K,V>[] resize() {
 * **[1]** 结点位置的计算是 index = hash & (cap - 1)，当 cap 为 2<sup>n</sup> 时，hash & (cap - 1) = hash % cap（& 比 % 的运算速度快）。扩容时，newCap = oldCap << 1，hash不变的情况下 hash % newCap 可能等于原 index，也可能为 index + oldCap（31 % 16 = 15，47 % 16 = 15，扩容后，31 % 32 = 31，47 % 32 = 15）。
 * **[2]** 由 **[1]** 可推出，当 hash / oldCap 为偶数时，新位置为原位置，当 hash / oldCap 为奇数时，新位置为原位置 + oldCap。由于哈希表中 cap 为 2<sup>n</sup>，即只有1位为1，其余全为0，故 hash & cap 后的结果要么为 0，要么为 cap。当相与后为 0 时，说明 hash / oldCap 为偶数，故用 loHead、loTail 保存，否则用 hiHead、hiTail保存。
 
-
-[返回首页](https://maxwell-l.github.io/WriteSomething)

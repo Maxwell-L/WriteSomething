@@ -1,5 +1,9 @@
-## **排序算法**
----------------------
+---
+layout: post
+title: "排序算法"
+date: 2020-10-09
+categories: DataStructure
+---
   
 ### **冒泡排序**
 ``` java
@@ -201,4 +205,3 @@ public static void heapSort(int[] array) {
 
 [类文件下载](https://github.com/Maxwell-L/WriteSomething/blob/master/something/SortAlgorithms.java)
 
-[返回首页](https://maxwell-l.github.io/WriteSomething)

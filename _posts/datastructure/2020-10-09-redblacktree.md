@@ -1,5 +1,10 @@
-## **JDK1.8中红黑树的调整**
---------------------------
+---
+layout: post
+title: "JDK1.8中红黑树的调整"
+date: 2020-10-09
+categories: DataStructure
+---
+
 ### **红黑树**
 * **红黑树的五个性质**
   + 每个结点要么为红色要么为黑色
@@ -139,11 +144,11 @@ static <K,V> TreeNode<K,V> rotateRight(TreeNode<K,V> root, TreeNode<K,V> p) {
 ```
 
 ### **示意图**
-![图片加载失败](https://maxwell-l.github.io/WriteSomething/image/rb1.png)
-![图片加载失败](https://maxwell-l.github.io/WriteSomething/image/rb2.png)
+![图片加载失败](https://maxwell-blog.cn/image/rb1.png)
+![图片加载失败](https://maxwell-blog.cn/image/rb2.png)
 
   
 
 
-[返回首页](https://maxwell-l.github.io/WriteSomething)
+
 
