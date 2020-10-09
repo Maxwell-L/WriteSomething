@@ -203,5 +203,5 @@ public static void heapSort(int[] array) {
 }
 ```
 
-[类文件下载](https://github.com/Maxwell-L/WriteSomething/blob/master/something/SortAlgorithms.java)
+[类文件下载](https://github.com/Maxwell-L/WriteSomething/blob/master/_posts/datastructure/SortAlgorithms.java)
 
