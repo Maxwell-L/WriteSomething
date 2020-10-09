@@ -1,5 +1,10 @@
-## **逃逸分析**
--------------
+---
+layout: post
+title: "逃逸分析"
+date: 2020-10-09
+categories: JVM
+---
+
 
 * **逃逸** 是指在某个方法/代码块中创建的对象，除了在方法体/代码块内被引用之外，还在方法体/代码块之外被引用到。带来的问题是方法/代码块在执行完毕后，在其中创建的对象无法被GC回收，即成为逃逸。JDK1.8默认开启逃逸分析。
 
@@ -34,6 +39,3 @@ public class EscapeAnalysisDemo {
 **结果**  
 ![图片加载失败](https://maxwell-blog.cn/image/escapeanalysis2.png)  
 
-
-
-[返回首页](https://maxwell-blog.cn)
