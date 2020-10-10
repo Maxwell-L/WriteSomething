@@ -64,4 +64,6 @@ public static ExecutorService newCachedThreadPool(ThreadFactory threadFactory) {
     + **threadFactory** 线程工厂，用于创建线程，一般采用默认
     + **handler** 拒绝策略，当任务太多来不及处理时如何拒绝
 
-    
+### **BlockingQueue** 
+* 线程池中使用 **BlockingQueue** 来存放未执行的任务。按照队列功能分类，在 **ThreadPoolExecutor** 的构造函数中可以使用以下几种 **BlockingQueue**
+* **SynchronousQueue**
