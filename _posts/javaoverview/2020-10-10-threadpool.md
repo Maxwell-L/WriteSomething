@@ -7,8 +7,10 @@ categories: Java
 
 * 为了避免系统频繁地创建和销毁线程，可以让创建的线程进行复用。线程池中，总有几个活跃线程，当需要使用线程时，可以从池子里拿一个空闲线程；完成工作时，不立即关闭线程，而是将线程退回到池子中
 * 为了更好的控制多线程，**JDK** 提供了一套 `Executor` 框架  
-![图片加载失败](https://maxwell-blog.cn/image/threadpool1.png)  
-其中 `ThreadPoolExecutor` 表示一个线程池
+
+    ![图片加载失败](https://maxwell-blog.cn/image/threadpool1.png)  
+
+    其中 `ThreadPoolExecutor` 表示一个线程池
 * `Executors`类中实现了几种类型的线程池:
 
     ``` java
@@ -21,7 +23,7 @@ categories: Java
     + `newSingleThreadExecutor()` 返回一个只有一个线程的线程池，多余线程被存放在一个任务队列中，待线程空闲时按先入先出的顺序执行队列中的任务。
     + `newCachedThreadPool()` 返回一个可根据实际情况调整线程数量的线程池。线程池数量不确定。若有空闲线程时会优先复用，若没有空闲线程时，则会创建新的线程处理任务。
 
-### 线程池的底层实现
+### **线程池的底层实现**
 
 ``` java
 public static ExecutorService newFixedThreadPool(int nThreads, ThreadFactory threadFactory) {
@@ -66,4 +68,11 @@ public static ExecutorService newCachedThreadPool(ThreadFactory threadFactory) {
 
 ### **BlockingQueue** 
 * 线程池中使用 **BlockingQueue** 来存放未执行的任务。按照队列功能分类，在 **ThreadPoolExecutor** 的构造函数中可以使用以下几种 **BlockingQueue**
-* **SynchronousQueue**
+* **SynchronousQueue** 是一个没有容量的阻塞队列，每一个 `put` 操作都要等待一个 `take` 操作，反之每个 `take` 操作也要等待一个 `put` 操作。`newCachedThreadPool` 中采用了这种阻塞队列，提交的任务不会被真实的保存，而总是提交给线程执行，如果没有空闲线程则创建新线程。当线程数达到 *maximumPoolSize* 时执行拒绝策略。
+* **ArrayBlockingQueue** 有界的阻塞队列，有新任务提交时，若当前线程数小于 *corePoolSize*，则创建新线程；若大于 *corePoolSize*，则将任务加入阻塞队列；若阻塞队列已满且线程数小于 *maximumPoolSize* 则创建新线程执行任务；若阻塞队列已满且线程数达到 *maximumPoolSize* 则执行拒绝策略。
+* **LinkedBlockingQueue** 无界的阻塞队列，与有界的阻塞队列相比，除非系统资源耗尽，否则不会出现任务入队失败的情况，若线程数达到 *corePoolSize* 又没有空闲线程，则后续任务都会进入阻塞队列里等待。
+* 总的调度逻辑如下：  
+
+    ![图片加载失败](https://maxwell-blog.cn/image/threadpool2.jpg)
+
+### **拒绝策略**
