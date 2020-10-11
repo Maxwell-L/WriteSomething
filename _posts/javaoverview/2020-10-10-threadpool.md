@@ -3,7 +3,7 @@ layout: post
 title: "线程池的实现与使用"
 date: 2020-10-10
 categories: Java
-author: Lin Liangqi
+author: Maxwell-L
 ---
 
 * 为了避免系统频繁地创建和销毁线程，可以让创建的线程进行复用。线程池中，总有几个活跃线程，当需要使用线程时，可以从池子里拿一个空闲线程；完成工作时，不立即关闭线程，而是将线程退回到池子中
@@ -77,3 +77,42 @@ public static ExecutorService newCachedThreadPool(ThreadFactory threadFactory) {
     ![图片加载失败](https://maxwell-blog.cn/image/threadpool2.jpg)
 
 ### **拒绝策略**
+* **ThreadPoolExecutor** 提供了四种拒绝策略：
+
+    ``` java
+    public static class AbortPolicy implements RejectedExecutionHandler {
+        public void rejectedExecution(Runnable r, ThreadPoolExecutor e) {
+            throw new RejectedExecutionException("Task " + r.toString() +
+                                                 " rejected from " +
+                                                 e.toString());
+        }
+    }
+
+    public static class CallerRunsPolicy implements RejectedExecutionHandler {
+        public void rejectedExecution(Runnable r, ThreadPoolExecutor e) {
+            if (!e.isShutdown()) {
+                r.run();
+            }
+        }
+    }
+
+    public static class DiscardPolicy implements RejectedExecutionHandler {
+        public void rejectedExecution(Runnable r, ThreadPoolExecutor e) {
+        }
+    }
+
+    public static class DiscardOldestPolicy implements RejectedExecutionHandler {
+        public void rejectedExecution(Runnable r, ThreadPoolExecutor e) {
+            if (!e.isShutdown()) {
+                e.getQueue().poll();
+                e.execute(r);
+            }
+        }
+    }
+    ```
+    + **AbortPolicy** 直接抛出异常，阻止系统正常工作
+    + **CallerRunsPolicy** 只要线程池未关闭，直接在调用者线程中运行当前任务，但是，任务提交线程的性能有可能会急剧下降。
+    + **DiscardPolicy** 丢弃无法处理的任务，不予任何处理
+    + **DiscardOldestPolicy** 丢弃最老的一个请求，并尝试再次提交当前任务
+
+### **ThreadFactory**
