@@ -159,7 +159,8 @@ public static ExecutorService newCachedThreadPool(ThreadFactory threadFactory) {
     ```
 
     **运行结果**  
+
     ![图片加载失败](https://maxwell-blog.cn/image/threadpool3.png)
 
 ### **扩展线程池**
-
+* **ThreadPoolExecutor** 是一个可以扩展的线程池，它提供了 **beforeExecute()**、**afterExecute()**、**terminated()**  三个接口对线程池进行控制
