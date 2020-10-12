@@ -116,3 +116,50 @@ public static ExecutorService newCachedThreadPool(ThreadFactory threadFactory) {
     + **DiscardOldestPolicy** 丢弃最老的一个请求，并尝试再次提交当前任务
 
 ### **ThreadFactory**
+* 线程池的主要作用是为了线程复用，避免线程的频繁创建。最开始的线程就来自 **ThreadFactory**，**ThreadFactory** 是一个接口，只有一个方法，就是用来创建线程的： 
+
+    ``` java
+    public interface ThreadFactory {
+
+        /**
+        * Constructs a new {@code Thread}.  Implementations may also initialize
+        * priority, name, daemon status, {@code ThreadGroup}, etc.
+        *
+        * @param r a runnable to be executed by new thread instance
+        * @return constructed thread, or {@code null} if the request to
+        *         create a thread is rejected
+        */
+        Thread newThread(Runnable r);
+    }
+    ```
+    当线程池需要新建线程时就会调用这个方法。
+* 自定义 **ThreadFactory** 可以跟踪线程池在何时创建了多少线程，也可以自定义线程名称、组以及优先级等信息：
+
+    ``` java
+    public class MyThreadFactoryDemo {
+        public static void main(String[] args) throws InterruptedException {
+            ExecutorService threadPool = new ThreadPoolExecutor(5, 5,
+                    0L, TimeUnit.MILLISECONDS,
+                    new SynchronousQueue<Runnable>(),
+                    new ThreadFactory() {
+                        @Override
+                        public Thread newThread(Runnable r) {
+                            Thread t = new Thread(r);
+                            System.out.println("INFO::create thread: " + t);
+                            return t;
+                        }
+                    });
+            Runnable r = () -> {};
+            for(int i = 0; i < 5; i++) {
+                threadPool.submit(r);
+            }
+            Thread.sleep(2000);
+        }
+    }
+    ```
+
+    **运行结果**  
+    ![图片加载失败](https://maxwell-blog.cn/image/threadpool3.png)
+
+### **扩展线程池**
+
