@@ -14,4 +14,5 @@ author: Maxwell-L
 * **synchronized** 是一种不公平锁，而 **Lock** 可以实现公平锁。
 
 ### **synchronized 原理与使用**
+* **synchronized** 通过 *monitorenter*、*monitorexit* 来实现 *lock* 和 *unlock* 操作。每个对象都是一个 *monitor*，当 *monitor* 被占用时就会处于锁定状态，线程执行 *monitorenter* 指令时会尝试获取 *monitor* 的所有权：
 
