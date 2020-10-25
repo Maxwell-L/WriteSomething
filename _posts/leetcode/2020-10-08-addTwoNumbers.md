@@ -21,6 +21,7 @@ categories: LeetCode
 链接：[https://leetcode-cn.com/problems/add-two-numbers](https://leetcode-cn.com/problems/add-two-numbers)
 
 ### **题解**
+> Java
 ``` java
 /**
  * Definition for singly-linked list.
@@ -61,6 +62,41 @@ class Solution {
         }
         return result.next;
     }
+}
+```
+
+> Go
+``` go
+/**
+ * Definition for singly-linked list.
+ * type ListNode struct {
+ *     Val int
+ *     Next *ListNode
+ * }
+ */
+func addTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
+    head := &ListNode{}
+    last := head
+    carry := 0
+    for l1 != nil || l2 != nil {
+        n1, n2 := 0, 0
+        if l1 != nil {
+            n1 = l1.Val
+            l1 = l1.Next
+        }
+        if l2 != nil {
+            n2 = l2.Val
+            l2 = l2.Next
+        }
+        sum := (n1 + n2 + carry) % 10
+        carry = (n1 + n2 + carry) / 10
+        last.Next = &ListNode{sum, nil}
+        last = last.Next
+    }
+    if carry != 0 {
+        last.Next = &ListNode{carry, nil}
+    }
+    return head.Next
 }
 ```
 
