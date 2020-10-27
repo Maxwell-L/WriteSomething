@@ -12,9 +12,11 @@ categories: POJ
 |1002|[487-3279](https://maxwell-blog.cn/poj/2020/10/27/1002)|
 |1003|[Hangover](https://maxwell-blog.cn/poj/2020/10/27/1003)|
 |1004|[Financial Management](https://maxwell-blog.cn/poj/2020/10/27/1004)|
+|1005|[I Think I Need a Houseboat](https://maxwell-blog.cn/poj/2020/10/27/1005)|
+|1006|[Biorhythms](https://maxwell-blog.cn/poj/2020/10/27/1006)|
 |1007|[DNA Sorting](https://maxwell-blog.cn/poj/2020/10/27/1007)
 
-* [1005~1009](https://maxwell-blog.cn/poj/2020/10/09/1005.html)
+
 * [1010~1014](https://maxwell-blog.cn/poj/2020/10/09/1010.html)
 * [1015~1019](https://maxwell-blog.cn/poj/2020/10/09/1015.html)
 * [1025~1029](https://maxwell-blog.cn/poj/2020/10/09/1025.html)
