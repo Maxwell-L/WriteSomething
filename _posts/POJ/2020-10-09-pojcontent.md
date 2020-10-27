@@ -12,7 +12,7 @@ categories: POJ
 |1002|[487-3279](https://maxwell-blog.cn/poj/2020/10/27/1002)|
 |1003|[Hangover](https://maxwell-blog.cn/poj/2020/10/27/1003)|
 |1004|[Financial Management](https://maxwell-blog.cn/poj/2020/10/27/1004)|
-
+|1007|[DNA Sorting](https://maxwell-blog.cn/poj/2020/10/27/1007)
 
 * [1005~1009](https://maxwell-blog.cn/poj/2020/10/09/1005.html)
 * [1010~1014](https://maxwell-blog.cn/poj/2020/10/09/1010.html)
