@@ -7,7 +7,7 @@ categories: POJ
 
 |ID|Title|
 |:-|:-|
-|1004|[Financial Management](ttps://maxwell-blog.cn/poj/2020/10/27/1004)|
+|1004|[Financial Management](https://maxwell-blog.cn/poj/2020/10/27/1004)|
 
 * [1000~1004](https://maxwell-blog.cn/poj/2020/10/09/1000.html)
 * [1005~1009](https://maxwell-blog.cn/poj/2020/10/09/1005.html)
