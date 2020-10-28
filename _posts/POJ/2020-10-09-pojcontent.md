@@ -14,7 +14,8 @@ categories: POJ
 |1004|[Financial Management](https://maxwell-blog.cn/poj/2020/10/27/1004)|
 |1005|[I Think I Need a Houseboat](https://maxwell-blog.cn/poj/2020/10/27/1005)|
 |1006|[Biorhythms](https://maxwell-blog.cn/poj/2020/10/27/1006)|
-|1007|[DNA Sorting](https://maxwell-blog.cn/poj/2020/10/27/1007)
+|1007|[DNA Sorting](https://maxwell-blog.cn/poj/2020/10/27/1007)|
+|1008|[Maya Calendar](https://maxwell-blog.cn/poj/2020/10/28/1008)|
 
 
 * [1010~1014](https://maxwell-blog.cn/poj/2020/10/09/1010.html)
