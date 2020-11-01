@@ -71,3 +71,12 @@ author: Maxwell-L
     ![图片加载失败](https://maxwell-blog.cn/image/androidhello16.png)
 
 
+### **配置虚拟设备**
+* 运行项目前先为项目添加一个虚拟设备
+
+    ![图片加载失败](https://maxwell-blog.cn/image/androidhello17.png)
+    ![图片加载失败](https://maxwell-blog.cn/image/androidhello18.png)
+    ![图片加载失败](https://maxwell-blog.cn/image/androidhello19.png)
+    ![图片加载失败](https://maxwell-blog.cn/image/androidhello20.png)
+
+    这里选择了一个跟自己手机一样的 Android 10.0，后面一路各种 `Next`、`Accept`，等待安装完成。
