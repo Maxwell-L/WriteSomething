@@ -24,9 +24,27 @@ author: Maxwell-L
 
     并在 **Path** 下新增 `%GRADLE_HOME%\bin`
 
-### **Android Studio 安装**
+* 配置完成后打开 **cmd**，键入 `gradle -v` 可以看到 gradle 版本信息
+
+    ![图片加载失败](https://maxwell-blog.cn/image/androidhello3_2.png)
+
+### **Android Studio 配置安装**
 * 官网下载 [Android Studio](https://developer.android.google.cn/studio/)，下载完成后开始安装
 
     ![图片加载失败](https://maxwell-blog.cn/image/androidhello4.png)
     ![图片加载失败](https://maxwell-blog.cn/image/androidhello5.png)
     ![图片加载失败](https://maxwell-blog.cn/image/androidhello6.png)
+
+* 在 **Android Studio** 中安装 **Android SDK**，首次运行 Android Studio 会提示无法访问 Android SDK，如下图所示，点击 `cancel` 进入下个界面 -> `Next`
+
+    ![图片加载失败](https://maxwell-blog.cn/image/androidhello7.png)
+    ![图片加载失败](https://maxwell-blog.cn/image/androidhello8.png)
+    
+    自行设置 **Android SDK Location**，其余默认，`Next` 进入安装
+
+    ![图片加载失败](https://maxwell-blog.cn/image/androidhello9.png)
+    ![图片加载失败](https://maxwell-blog.cn/image/androidhello10.png)
+
+    等待安装完成
+
+    ![图片加载失败](https://maxwell-blog.cn/image/androidhello11.png)
