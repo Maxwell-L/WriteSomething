@@ -35,7 +35,7 @@ author: Maxwell-L
     ![图片加载失败](https://maxwell-blog.cn/image/androidhello5.png)
     ![图片加载失败](https://maxwell-blog.cn/image/androidhello6.png)
 
-* 在 **Android Studio** 中安装 **Android SDK**，首次运行 Android Studio 会提示无法访问 Android SDK，如下图所示，点击 `cancel` 进入下个界面 -> `Next`
+* 在 **Android Studio** 中安装 **Android SDK**，首次运行 Android Studio 会提示无法访问 Android SDK，如下图所示，点击 `Cancel` 进入下个界面 -> `Next`
 
     ![图片加载失败](https://maxwell-blog.cn/image/androidhello7.png)
     ![图片加载失败](https://maxwell-blog.cn/image/androidhello8.png)
@@ -48,4 +48,26 @@ author: Maxwell-L
     等待安装完成
 
     ![图片加载失败](https://maxwell-blog.cn/image/androidhello11.png)
+
+### **创建 Hello World 项目**
+* 创建新项目，设置项目名称，项目语言等等，`Finish`
+
+    ![图片加载失败](https://maxwell-blog.cn/image/androidhello12.png)
+
+* 项目打开后，Android Studio 会自动构建项目，可能出现 gradle-6.5-bin.zip 下载失败的情况
+
+    ![图片加载失败](https://maxwell-blog.cn/image/androidhello13.png)
+
+    此时关闭 Android Studio，打开项目下的 gradle/wrapper 目录，修改 `gradle-wrapper.properties` 文件，将 zip 包下载地址改为本地
+
+    ![图片加载失败](https://maxwell-blog.cn/image/androidhello14.png)
+
+    为了避免依赖的 pom 文件和 jar 包下载缓慢或失败，可以修改项目目录下的 `build.gradle` 文件，在 `buildscript` 和 `allprojects` 下的 `repositories` 都添加上阿里云仓库 `maven{ url 'http://maven.aliyun.com/nexus/content/groups/public/'}`：
+
+    ![图片加载失败](https://maxwell-blog.cn/image/androidhello15.png)
+
+    修改完成后重新打开 Android Studio -> 构建成功
+
+    ![图片加载失败](https://maxwell-blog.cn/image/androidhello16.png)
+
 
