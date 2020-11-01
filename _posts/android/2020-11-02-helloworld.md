@@ -80,3 +80,6 @@ author: Maxwell-L
     ![图片加载失败](https://maxwell-blog.cn/image/androidhello20.png)
 
     这里选择了一个跟自己手机一样的 Android 10.0，后面一路各种 `Next`、`Accept`，等待安装完成。
+
+### **运行**
+![图片加载失败](https://maxwell-blog.cn/image/androidhello21.png)
