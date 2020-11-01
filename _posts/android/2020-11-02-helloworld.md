@@ -87,7 +87,7 @@ author: Maxwell-L
 
     ![图片加载失败](https://maxwell-blog.cn/image/androidhello22.png)
 
-    选择下方 **Apk**
+    选择下方 **APK**
 
     ![图片加载失败](https://maxwell-blog.cn/image/androidhello23.png)
 
@@ -106,10 +106,9 @@ author: Maxwell-L
 
 
 ### **在手机上安装运行**
-* apk文件打包后会存放在项目 release 目录下，将 .apk 文件发送到手机，进行安装并打开运行。
+* apk文件打包后会存放在项目 app/release 目录下，将 .apk 文件发送到手机，进行安装并打开运行。
 
     ![图片加载失败](https://maxwell-blog.cn/image/androidhello28.png)
 
-    ![图片加载失败](https://maxwell-blog.cn/image/androidhello29.jpg)
-    ![图片加载失败](https://maxwell-blog.cn/image/androidhello30.jpg)
-    ![图片加载失败](https://maxwell-blog.cn/image/androidhello31.jpg)
+    ![图片加载失败](https://maxwell-blog.cn/image/androidhello29.png)
+    
