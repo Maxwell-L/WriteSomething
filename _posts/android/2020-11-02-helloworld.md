@@ -62,10 +62,6 @@ author: Maxwell-L
 
     ![图片加载失败](https://maxwell-blog.cn/image/androidhello14.png)
 
-    为了避免依赖的 pom 文件和 jar 包下载缓慢或失败，可以修改项目目录下的 `build.gradle` 文件，在 `buildscript` 和 `allprojects` 下的 `repositories` 都添加上阿里云仓库 `maven{ url 'http://maven.aliyun.com/nexus/content/groups/public/'}`：
-
-    ![图片加载失败](https://maxwell-blog.cn/image/androidhello15.png)
-
     修改完成后重新打开 Android Studio -> 构建成功
 
     ![图片加载失败](https://maxwell-blog.cn/image/androidhello16.png)
@@ -85,4 +81,25 @@ author: Maxwell-L
 
 ![图片加载失败](https://maxwell-blog.cn/image/androidhello21.png)
 
-### **在手机上安装运行**
+### **打包apk**
+
+* 如图选择
+
+    ![图片加载失败](https://maxwell-blog.cn/image/androidhello22.png)
+
+    选择下方 **Apk**
+
+    ![图片加载失败](https://maxwell-blog.cn/image/androidhello23.png)
+
+    如图，创建 jks 文件，位置随意，别名随意，密码随意
+
+    ![图片加载失败](https://maxwell-blog.cn/image/androidhello24.png)
+    ![图片加载失败](https://maxwell-blog.cn/image/androidhello25.png)
+
+    `Next` 后按照下图选择，`Finish`
+
+    ![图片加载失败](https://maxwell-blog.cn/image/androidhello26.png)
+
+    打包完成
+
+    ![图片加载失败](https://maxwell-blog.cn/image/androidhello27.png)
