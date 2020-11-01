@@ -103,3 +103,13 @@ author: Maxwell-L
     打包完成
 
     ![图片加载失败](https://maxwell-blog.cn/image/androidhello27.png)
+
+
+### **在手机上安装运行**
+* apk文件打包后会存放在项目 release 目录下，将 .apk 文件发送到手机，进行安装并打开运行。
+
+    ![图片加载失败](https://maxwell-blog.cn/image/androidhello28.png)
+
+    ![图片加载失败](https://maxwell-blog.cn/image/androidhello29.jpg)
+    ![图片加载失败](https://maxwell-blog.cn/image/androidhello30.jpg)
+    ![图片加载失败](https://maxwell-blog.cn/image/androidhello31.jpg)
