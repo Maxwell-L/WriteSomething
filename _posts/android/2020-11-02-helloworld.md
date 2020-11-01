@@ -81,7 +81,7 @@ author: Maxwell-L
 
 ![图片加载失败](https://maxwell-blog.cn/image/androidhello21.png)
 
-### **打包apk**
+### **项目打包**
 
 * 如图选择
 
