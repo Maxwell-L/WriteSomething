@@ -34,7 +34,7 @@ categories: LeetCode
 
 
 ### **题解**
-
+> Java
 ``` java
 class Solution {
     public boolean isPalindrome(int x) {
@@ -51,5 +51,21 @@ class Solution {
 }
 ```
 
+> Go
+``` go
+func isPalindrome(x int) bool {
+    if x < 0 {
+        return false
+    }
+    reverse := 0
+    original := x
+    for original != 0 {
+        reverse = reverse * 10 + original % 10
+        original = original / 10
+    }
+    return reverse == x
+}
+```
 
-[返回](https://maxwell-blog.cn/leetcode/2020/10/08/leetcode.html)
+
+[返回](https://maxwell-blog.cn/leetcode/2020/10/08/leetcode)
