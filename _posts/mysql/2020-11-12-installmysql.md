@@ -1,6 +1,6 @@
 ---
 layout: post
-titie: "Win10 下安装 MySQL"
+title: "Win10 下安装 MySQL"
 date: 2020-11-12
 categories: MySQL
 author: Maxwell-L
