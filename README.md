@@ -1,4 +1,4 @@
-# Lin's Blogs
+# Lin's Blog
 
 ----
 
