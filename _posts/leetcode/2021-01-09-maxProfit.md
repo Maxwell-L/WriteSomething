@@ -106,13 +106,10 @@ class Solution {
 
 因此，在状态转移时，我们可以直接写成：
 
-`buy1 = max{buy1, -prices[i]}`
-
-`sell1 = max{sell1, buy1 + prices[i]}`
-​	
-`buy2 = max{buy2, sell1 - prices[i]}`
-
-​`sell2 = max{sell2, buy2 + prices[i]}`
+* `buy1 = max{buy1, -prices[i]}`
+* `sell1 = max{sell1, buy1 + prices[i]}`
+* `buy2 = max{buy2, sell1 - prices[i]}`
+* `sell2 = max{sell2, buy2 + prices[i]}`
 
 例如在计算 `sell1` 时，我们直接使用 `buy1` 而不是 `buy'1` 进行转移。`buy1` 比 `buy'1` 多考虑的是在第 `i` 天买入股票的情况，而转移到 `sell1` 时，考虑的是在第 `i` 天卖出股票的情况，这样在同一天买入并且卖出收益为零，不会对答案产生影响。同理对于 `buy2` 以及 `sell2`，我们同样可以直接根据第 `i` 天计算出的值来进行状态转移。
 
@@ -121,7 +118,7 @@ class Solution {
 在动态规划结束后，由于我们可以进行不超过两笔交易，因此最终的答案在 `0`，`sell1`，`sell2` 中，且为三者中的最大值。然而我们可以发现，由于在边界条件中 `sell1` 和 `sell2` 的值已经为 0，并且在状态转移的过程中我们维护的是最大值，因此 `sell1` 和 `sell2` 最终一定大于等于 0。同时，如果最优的情况对应的是恰好一笔交易，那么它也会因为我们在转移时允许在同一天买入并且卖出这一宽松的条件，从 `sell1` 转移至 `sell2`，因此最终的答案即为 `sell2`。
 
 作者：LeetCode-Solution  
-链接：https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iii/solution/mai-mai-gu-piao-de-zui-jia-shi-ji-iii-by-wrnt/  
+链接：[https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iii/solution/mai-mai-gu-piao-de-zui-jia-shi-ji-iii-by-wrnt/](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iii/solution/mai-mai-gu-piao-de-zui-jia-shi-ji-iii-by-wrnt/)  
 
 
 [返回](https://maxwell-blog.cn/leetcode/2020/10/08/leetcode.html)
