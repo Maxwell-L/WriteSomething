@@ -70,7 +70,9 @@ author: Maxwell-L
 * 所有 `(xi, yi)` 互不相同
 
 
+
 链接：[https://leetcode-cn.com/problems/bricks-falling-when-hit](https://leetcode-cn.com/problems/bricks-falling-when-hit)
+
 
 
 ### **题解**
