@@ -80,7 +80,7 @@ author: Maxwell-L
 class Solution {
     private int rows;
     private int cols;
-    private static final int[][] DIRECTIONS = {{0, 1}, {1, 0}, {0, -1}, {-1, 0}};
+    private static final int[][] DIRECTIONS = { {0, 1}, {1, 0}, {0, -1}, {-1, 0} };
 
     public int[] hitBricks(int[][] grid, int[][] hits) {
         rows = grid.length;
