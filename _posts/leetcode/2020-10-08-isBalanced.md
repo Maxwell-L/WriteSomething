@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "110 - 平衡二叉树"
+title: "110. 平衡二叉树"
 date: 2020-10-08
 categories: LeetCode
 ---

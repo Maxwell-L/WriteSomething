@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "9 - 回文数"
+title: "9. 回文数"
 date: 2020-10-08
 categories: LeetCode
 ---

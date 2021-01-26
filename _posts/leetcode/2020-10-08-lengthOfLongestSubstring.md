@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "3 - 无重复字符的最长子串"
+title: "3. 无重复字符的最长子串"
 date: 2020-10-08
 categories: LeetCode
 ---

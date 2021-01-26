@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "94 - 二叉树的中序遍历"
+title: "94. 二叉树的中序遍历"
 date: 2020-10-08
 categories: LeetCode
 ---
