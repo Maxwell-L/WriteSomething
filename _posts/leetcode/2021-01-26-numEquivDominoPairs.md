@@ -28,7 +28,7 @@ author: Maxwell-L
 * `1 <= dominoes[i][j] <= 9`
 
 
-链接：https://leetcode-cn.com/problems/number-of-equivalent-domino-pairs
+链接：[https://leetcode-cn.com/problems/number-of-equivalent-domino-pairs](https://leetcode-cn.com/problems/number-of-equivalent-domino-pairs)
 
 
 ### **题解**
