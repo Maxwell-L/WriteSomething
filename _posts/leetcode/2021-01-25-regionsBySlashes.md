@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "959 - 由斜杠划分区域"
+title: "959. 由斜杠划分区域"
 date: 2021-01-25
 categories: LeetCode
 author: Maxwell-L

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "989 - 数组形式的整数加法"
+title: "989. 数组形式的整数加法"
 date: 2021-01-22
 categories: LeetCode
 author: Maxwell-L

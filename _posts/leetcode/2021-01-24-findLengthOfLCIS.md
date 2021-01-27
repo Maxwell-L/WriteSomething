@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "674 - 最长连续递增序列"
+title: "674. 最长连续递增序列"
 date: 2021-01-24
 categories: LeetCode
 author: Maxwell-L

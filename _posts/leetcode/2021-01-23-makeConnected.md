@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "1319 - 连通网络的操作次数"
+title: "1319. 连通网络的操作次数"
 date: 2021-01-23
 categories: LeetCode
 author: Maxwell-L

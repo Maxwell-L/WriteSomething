@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "684 - 冗余连接"
+title: "684. 冗余连接"
 date: 2021-01-25
 categories: LeetCode
 author: Maxwell-L
