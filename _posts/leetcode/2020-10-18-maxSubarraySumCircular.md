@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "918 - 环形子数组的最大和"
+title: "918. 环形子数组的最大和"
 date: 2020-10-18
 categories: LeetCode
 author: Maxwell-L

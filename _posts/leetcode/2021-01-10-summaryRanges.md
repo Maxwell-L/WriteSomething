@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "228 - 汇总区间"
+title: "228. 汇总区间"
 date: 2021-01-10
 categories: LeetCode
 author: Maxwell-L

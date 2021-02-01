@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "239 - 滑动窗口最大值"
+title: "239. 滑动窗口最大值"
 date: 2021-01-04
 categories: LeetCode
 author: Maxwell-L

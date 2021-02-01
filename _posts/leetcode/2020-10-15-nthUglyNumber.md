@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "264 - 丑数 II"
+title: "264. 丑数 II"
 date: 2020-10-15
 categories: LeetCode
 author: Maxwell-L

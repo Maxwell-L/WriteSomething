@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "628 - 三个数的最大乘积"
+title: "628. 三个数的最大乘积"
 date: 2021-01-20
 categories: LeetCode
 author: Maxwell-L

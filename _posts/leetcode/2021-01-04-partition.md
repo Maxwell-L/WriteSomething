@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "86 - 分隔链表"
+title: "86. 分隔链表"
 date: 2021-01-04
 categories: LeetCode
 author: Maxwell-L

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "803 - 打砖块"
+title: "803. 打砖块"
 date: 2021-01-16
 categories: LeetCode
 author: Maxwell-L

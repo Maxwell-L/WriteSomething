@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "605 - 种花问题"
+title: "605. 种花问题"
 date: 2021-01-04
 categories: LeetCode
 author: Maxwell-L

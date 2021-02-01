@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "830 - 较大分组的位置"
+title: "830. 较大分组的位置"
 date: 2021-01-05
 categories: LeetCode
 author: Maxwell-L

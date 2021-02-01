@@ -1,6 +1,6 @@
 --- 
 layout: post
-title: "547 - 省份数量"
+title: "547. 省份数量"
 date: 2021-01-07
 categories: LeetCode
 author: Maxwell-L

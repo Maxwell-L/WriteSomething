@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "123 - 买卖股票的最佳时机 III"
+title: "123. 买卖股票的最佳时机 III"
 date: 2021-01-09
 categories: LeetCode
 author: Maxwell-L

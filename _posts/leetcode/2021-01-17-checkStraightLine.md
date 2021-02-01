@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "1232 - 缀点成线"
+title: "1232. 缀点成线"
 date: 2021-01-17
 categories: LeetCode
 author: Maxwell-L

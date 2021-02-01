@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "947 - 移除最多的同行或同列石头"
+title: "947. 移除最多的同行或同列石头"
 date: 2021-01-15
 categories: LeetCode
 author: Maxwell-L

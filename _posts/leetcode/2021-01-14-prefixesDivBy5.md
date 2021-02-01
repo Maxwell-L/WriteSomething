@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "1018 - 可被 5 整除的二进制前缀"
+title: "1018. 可被 5 整除的二进制前缀"
 date: 2021-01-14
 categories: LeetCode
 author: Maxwell-L

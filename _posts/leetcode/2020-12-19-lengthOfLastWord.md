@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "58 - 最后一个单词的长度"
+title: "58. 最后一个单词的长度"
 date: 2020-12-19
 categories: LeetCode
 author: Maxwell-L

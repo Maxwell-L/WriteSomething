@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "721 - 账户合并"
+title: "721. 账户合并"
 date: 2021-01-18
 categories: LeetCode
 author: Maxwell-L
