@@ -32,7 +32,7 @@ categories: [Java, DataStructure, JVM, MySQL, OJ, Linux, Spring, Redis, DesignPa
 
 
 # Build settings
-theme: minima
+theme: plainwhite
 plugins:
  - jekyll-feed
 
