@@ -45,9 +45,9 @@ theme: minima
 plugins:
  - jekyll-feed
  - jekyll-seo-tag
- - jekyll-paginate
+#  - jekyll-paginate
 
-paginate: 10
+# paginate: 10
 
 header_pages:
   - categories.md
