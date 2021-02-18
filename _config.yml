@@ -47,7 +47,7 @@ plugins:
  - jekyll-seo-tag
 
 header_pages:
-  - content.md
+  - categories.md
   - about.md
 
 
