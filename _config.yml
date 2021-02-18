@@ -37,6 +37,8 @@ description: 写点东西
 minima:
   date_format: "%b %-d, %Y"
 
+  skin: dark
+
   social_links:
     github: Maxwell-L
 
