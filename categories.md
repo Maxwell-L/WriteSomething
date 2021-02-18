@@ -9,7 +9,7 @@ permalink: /categories/
 * [Override 和 Overload 的区别](https://maxwell-blog.cn/java/2020/10/09/overrideoverload)
 * [Java中的封装/继承/多态](https://maxwell-blog.cn/java/2020/10/09/featuresOfJava)
 * [Abstract class 和 Interface 的区别](https://maxwell-blog.cn/java/2020/10/09/abstractclassinterface)
-* [类加载器 &amp; 双亲委托模型](https://maxwell-blog.cn/java/2020/10/09/classloader)">
+* [类加载器 &amp; 双亲委托模型](https://maxwell-blog.cn/java/2020/10/09/classloader)
 * [AQS源码阅读](https://maxwell-blog.cn/java/2020/10/09/aqs)
 * [ThreadLocal源码阅读](https://maxwell-blog.cn/java/2020/10/09/threadlocal)
 * [线程池的实现与使用](https://maxwell-blog.cn/java/2020/10/10/threadpool)
