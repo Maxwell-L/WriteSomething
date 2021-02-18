@@ -34,7 +34,7 @@ description: 写点东西
 # site.github_username:  Maxwell-L
 # categories: [Java, DataStructure, JVM, MySQL, OJ, Linux, Spring, Redis, DesignPattern]
 
-minian:
+minima:
   date_format: "%b %-d, %Y"
 
   social_links:
