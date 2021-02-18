@@ -50,6 +50,9 @@ header_pages:
   - categories.md
   - about.md
 
+disqus:
+  shortname: Maxwell-L
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
