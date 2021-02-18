@@ -1,1 +1,6 @@
-# this is Lin's blog.
+---
+layout: page
+title: About
+permalink: /about/
+---
+
