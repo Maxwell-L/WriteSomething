@@ -53,9 +53,10 @@ header_pages:
   - categories.md
   - about.md
 
-disqus:
-  shortname: maxwell-l
+# disqus:
+#   shortname: maxwell-l
 
+intensedebate_comments: true
 
 # Exclude from processing.
 # The following items will not be processed, by default.
