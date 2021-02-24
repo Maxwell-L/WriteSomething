@@ -48,7 +48,7 @@ plugins:
  - jekyll-paginate
 
 paginate: 10
-paginate_path: "page:num"
+paginate_path: "home/page:num"
 
 header_pages:
   - categories.md
