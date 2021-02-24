@@ -45,10 +45,9 @@ theme: minima
 plugins:
  - jekyll-feed
  - jekyll-seo-tag
- - jekyll-paginate
 
 paginate: 10
-paginate_path: "home/page:num"
+paginate_path: "page:num"
 
 header_pages:
   - categories.md
