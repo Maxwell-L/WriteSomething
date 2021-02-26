@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "100 == 100 ? | 1000 != 1000 ?"
+title: "100 == 100 ?, 1000 != 1000 ?"
 date: 2021-02-26
 categories: Java
 author: Maxwell-L

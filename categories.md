@@ -13,7 +13,7 @@ title: "Categories"
 * [ThreadLocal源码阅读](https://maxwell-blog.cn/java/2020/10/09/threadlocal)
 * [线程池的实现与使用](https://maxwell-blog.cn/java/2020/10/10/threadpool)
 * [synchronized 和 Lock 的区别](https://maxwell-blog.cn/java/2020/10/14/syncandlock)
-* [100 == 100 ? | 1000 != 1000 ?](https://maxwell-blog.cn/java/2021/02-26/integerequal)
+* [100 == 100 ?, 1000 != 1000 ?](https://maxwell-blog.cn/java/2021/02/26/integerequal)
 
 ## JVM
 * [逃逸分析](https://maxwell-blog.cn/jvm/2020/10/09/escapeanalysis)
