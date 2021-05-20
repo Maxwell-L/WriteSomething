@@ -55,5 +55,8 @@ title: "Categories"
 * [代理模式](https://maxwell-blog.cn/designpattern/2020/10/08/proxy)
 * [观察者模式](https://maxwell-blog.cn/designpattern/2020/10/10/observer)
 
+## Git
+* [Git配置](https://maxwell-blog.cn/git/2021/05/20/gitconfig)
+
 ## Android
 * [Android入门-HelloWorld](https://maxwell-blog.cn/android/2020/11/02/helloworld)
