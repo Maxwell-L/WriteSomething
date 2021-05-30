@@ -65,4 +65,4 @@ title: "Categories"
 * [计算广告-笔记](https://maxwell-blog.cn/business/2021/05/23/ComputationalAdvertising)
 
 ## Java学习之路
-* [《代码整洁之道》学习笔记](https://maxwell-blog.cn/studynote/2021/05/30/CleanCode)
+* [《代码整洁之道》学习笔记](https://maxwell-blog.cn/studynote/2021/05/30/cleancode)
