@@ -26,12 +26,12 @@ categories: StudyNote
 ### 二、有意义的命名
 
 * 选择体现本意的名称，并指明计量对象和计量单位的名称
-  
-  ``` markdown
-  # 正例
-  int daySinceCreation;
-  int elapsedTimeInDays;
-  ```
+
+    ``` markdown
+    # 正例
+    int daySinceCreation;
+    int elapsedTimeInDays;
+    ```
 
 * 不使用小写字母`l`和大写字母`O`作为变量名，少使用外形相似度高的名称
 * 对于同一作用范围的两样东西应做有意义的区分，不能添加数字系列来命名，也不能通过拼写错误来区分。废话也是没有意义的区分，假如有一个`Product`类，再有一个`ProductInfo`或`ProductData`类，意思并无区别，这是意义含混的废话。
