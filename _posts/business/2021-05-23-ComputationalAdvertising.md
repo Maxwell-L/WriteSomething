@@ -3,7 +3,7 @@ layout: post
 title: "计算广告-笔记"
 date: 2021-05-23
 categories: Business
-author: lingliangqi
+author: linliangqi
 ---
 
 > [计算广告](https://book.douban.com/subject/34804492/)
