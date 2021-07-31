@@ -4,7 +4,6 @@ title: "《代码整洁之道》学习笔记"
 date: 2021-05-30
 author: linliangqi
 categories: StudyNote
-update: 2021-06-13
 ---
 
 - [一、整洁代码](#一整洁代码)
