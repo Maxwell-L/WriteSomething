@@ -66,4 +66,5 @@ title: "Categories"
 
 ## Java学习之路
 * [《代码整洁之道》学习笔记](https://maxwell-blog.cn/studynote/2021/05/30/cleancode)
-* [JUnit 学习](https://maxwell-blog.cn/studynote/2021/07/31/junit)
+* [JUnit & Mockito 小结](https://maxwell-blog.cn/studynote/2021/07/31/junit)
+* [Java并发编程](https://maxwell-blog.cn/studynote/2021/09/04/ConcurrencyProgramming.md)
