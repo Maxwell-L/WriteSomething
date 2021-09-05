@@ -20,6 +20,7 @@ categories: StudyNote
 ### 前置知识
 
 #### CPU的术语定义
+
 术语|描述
 :-:|:-
 内存屏障（memory barriers）|是一组处理器指令，用于实现对内存操作的顺序限制
@@ -32,6 +33,7 @@ categories: StudyNote
 
 #### MESI（缓存一致性协议）
 处理器有一套完整的协议来保证Cache一致性，比较经典的是MESI协议，在MESI协议中，每个缓存行有4个状态，可以用两个bit表示：
+
 状态|描述
 :-:|:-
 M(Modified)|数据有效，但被修改，与内存中不一致，数据仅存在本缓存中
