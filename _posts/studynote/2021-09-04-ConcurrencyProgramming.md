@@ -11,4 +11,4 @@ categories: StudyNote
 
 ### Java并发机制底层原理
 
-<blockquote>Java的并发机制依赖于JVM的实现和CPU的指令</blockquote>
+<blockquote><p>Java的并发机制依赖于 JVM 的实现和 CPU 的指令</p></blockquote>
