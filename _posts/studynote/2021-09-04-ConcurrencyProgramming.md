@@ -11,6 +11,7 @@ categories: StudyNote
     - [CPU的术语定义](#cpu的术语定义)
     - [MESI（缓存一致性协议）](#mesi缓存一致性协议)
     - [存储器层次结构](#存储器层次结构)
+  - [volatile可见性原理](#volatile可见性原理)
 
 
 ## Java并发机制底层原理
@@ -50,6 +51,13 @@ MESI协议状态迁移图如下：
 ![图片加载失败](https://maxwell-blog.cn/image/cache-level.jpg)
 
 
+### volatile可见性原理
+volatile 在并发编程中保证了共享变量的可见性，当一个线程修改共享变量的值时，volatile可以保证另一个线程可以读到修改后的值，volatile比synchronized更轻量，因为volatile不会引起上下文切换。
 
+volatile修饰的共享变量在修改时会进行两个操作：
+1. 将当前处理器缓存行的数据写回系统内存
+2. 写回内存的操作会使其它处理器缓存的该缓存变量失效
+   
+对照MESI协议，可以了解此过程中各处理器的状态变化：修改了共享变量并写入内存的CPU的状态变化为 `S -> M -> E`，其它CPU的状态变化为 `S -> I`；其它CPU从内存中读取该变量时又会使得状态变化为 `I -> S`，而刚刚修改了该变量的CPU的状态变化为 `E -> S`。
 
 
