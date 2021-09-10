@@ -12,6 +12,9 @@ categories: StudyNote
     - [MESI（缓存一致性协议）](#mesi缓存一致性协议)
     - [存储器层次结构](#存储器层次结构)
   - [volatile可见性原理](#volatile可见性原理)
+  - [Synchronized原理](#synchronized原理)
+    - [Java对象头](#java对象头)
+    - [锁的升级与对比](#锁的升级与对比)
 
 
 ## Java并发机制底层原理
@@ -60,4 +63,15 @@ volatile修饰的共享变量在修改时会进行两个操作：
    
 对照MESI协议，可以了解此过程中各处理器的状态变化：修改了共享变量并写入内存的CPU的状态变化为 `S -> M -> E`，其它CPU的状态变化为 `S -> I`；其它CPU从内存中读取该变量时又会使得状态变化为 `I -> S`，而刚刚修改了该变量的CPU的状态变化为 `E -> S`。
 
+### Synchronized原理
 
+#### Java对象头
+Java对象在内存中的布局可以分为3个区域：对象头（Header）、实例数据（Instance Data）和对齐填充（Padding）。Synchronized用的锁存储在Header里，Header的结构如下图所示：
+
+![图片加载失败](https://maxwell-blog.cn/image/JavaHeader.png)
+
+其中Mark Word存储了锁相关的信息，其数据会随着锁标志位的变化而变化：
+
+![图片加载失败](https://maxwell-blog.cn/image/MarkWord.png)
+
+#### 锁的升级与对比
