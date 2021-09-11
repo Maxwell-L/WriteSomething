@@ -16,6 +16,7 @@ title: "Categories"
 * [100 == 100 ?, 1000 != 1000 ?](https://maxwell-blog.cn/java/2021/02/26/integerequal)
 
 ## JVM
+* [Java对象在内存中的存储](https://maxwell-blog.cn/jvm/2021/09/11/ObjectInJVM)
 * [逃逸分析](https://maxwell-blog.cn/jvm/2020/10/09/escapeanalysis)
 
 ## 数据结构与算法
