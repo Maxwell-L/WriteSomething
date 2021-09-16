@@ -56,7 +56,7 @@ reference|4byte(关闭指针压缩则为8byte)
 
 ### Java堆的结构
 
-上述问题又涉及到Java堆的结构，堆空间可以分为 `YoungGen`、`OldGen`、`MetaSpace`三个部分，`YoungGen`由可以分为`Eden`、`From Surviror`、`To Survivor`三个部分，对于普通对象的创建会现在 `YoungGen`中的 `Eden` 分配空间，每次 Minor GC 会将 `Eden`和一个`Survivor`中存活的对象移入另一个 `Survivor`中，同时存活下来的对象的分代年龄会增长1岁，默认在15岁时会被移入 `OldGen`。
+上述问题又涉及到Java堆的结构，堆空间可以分为 `YoungGen`、`OldGen`、`MetaSpace`三个部分，`YoungGen`又可以分为`Eden`、`From Surviror`、`To Survivor`三个部分，对于普通对象的创建会先在 `YoungGen`中的 `Eden` 分配空间，每次 Minor GC 会将 `Eden`和一个`Survivor`中存活的对象移入另一个 `Survivor`中，同时存活下来的对象的分代年龄会增长1岁，默认在15岁时会被移入 `OldGen`。
 
 但对于问题中的大数组，JVM对于这样的大对象会直接将其存储在 `OldGen` 中，那么可以推测，byte[] 数组的大小不能超过 `OldGen` 的大小，否则就会直接抛出异常。
 
