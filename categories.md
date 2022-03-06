@@ -69,3 +69,4 @@ title: "Categories"
 * [《代码整洁之道》学习笔记](https://maxwell-blog.cn/studynote/2021/05/30/cleancode)
 * [JUnit & Mockito 小结](https://maxwell-blog.cn/studynote/2021/07/31/junit)
 * [Java并发编程](https://maxwell-blog.cn/studynote/2021/09/04/ConcurrencyProgramming)
+* [Java单测框架](https://maxwell-blog.cn/studynote/2022/03/06/JavaUnitTest)
