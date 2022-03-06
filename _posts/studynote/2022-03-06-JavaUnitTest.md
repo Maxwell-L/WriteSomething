@@ -1,28 +1,26 @@
 ---
 layout: post
-title: "Java 并发编程"
-date: 2021-09-04
+title: "Java单测框架"
+date: 2022-03-06
 author: linliangqi
-categories: StudyN2-03-06
+categories: StudyNote
 ---
 
-- [Java单测框架](#java单测框架)
-  - [Ⅰ. 什么是单测](#ⅰ-什么是单测)
-  - [Ⅱ. 为什么需要单测](#ⅱ-为什么需要单测)
-  - [Ⅲ. 单测的F.I.R.S.T.原则](#ⅲ-单测的first原则)
-  - [一、单测框架对比](#一单测框架对比)
-  - [二、Mockito框架使用](#二mockito框架使用)
-    - [1. 在项目中使用Mockito](#1-在项目中使用mockito)
-      - [1.1 初始化Mockito](#11-初始化mockito)
-      - [1.2 @Mock和@Spy](#12-mock和spy)
-      - [1.3 @InjectMocks](#13-injectmocks)
-      - [1.4 @Before和@After](#14-before和after)
-      - [1.5 @BeforeClass和@AfterClass](#15-beforeclass和afterclass)
-      - [1.6 assert和verify](#16-assert和verify)
-      - [1.7 Mock静态方法](#17-mock静态方法)
-    - [2. 反射工具](#2-反射工具)
+- [Ⅰ. 什么是单测](#ⅰ-什么是单测)
+- [Ⅱ. 为什么需要单测](#ⅱ-为什么需要单测)
+- [Ⅲ. 单测的F.I.R.S.T.原则](#ⅲ-单测的first原则)
+- [一、单测框架对比](#一单测框架对比)
+- [二、Mockito框架使用](#二mockito框架使用)
+  - [1. 在项目中使用Mockito](#1-在项目中使用mockito)
+    - [1.1 初始化Mockito](#11-初始化mockito)
+    - [1.2 @Mock和@Spy](#12-mock和spy)
+    - [1.3 @InjectMocks](#13-injectmocks)
+    - [1.4 @Before和@After](#14-before和after)
+    - [1.5 @BeforeClass和@AfterClass](#15-beforeclass和afterclass)
+    - [1.6 assert和verify](#16-assert和verify)
+    - [1.7 Mock静态方法](#17-mock静态方法)
+  - [2. 反射工具](#2-反射工具)
 
-# Java单测框架
 
 ## Ⅰ. 什么是单测
 
@@ -250,13 +248,3 @@ public void fetchData() {
 ```
 
 如果私有方法有多个入参，按顺序写就行。
-
-
-
-
-
-
-
-
-
-
